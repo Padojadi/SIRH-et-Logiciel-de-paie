@@ -1,0 +1,7220 @@
+[
+  {
+    "code": "11",
+    "libelle": "RÉSERVES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "12",
+    "libelle": "REPORT À NOUVEAU",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "13",
+    "libelle": "RÉSULTAT NET DE L'EXERCICE",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "14",
+    "libelle": "SUBVENTIONS D'INVESTISSEMENT",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "15",
+    "libelle": "PROVISIONS RÉGLEMENTÉES ET FONDS ASSIMILÉS",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "16",
+    "libelle": "EMPRUNTS ET DETTES ASSIMILÉES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "17",
+    "libelle": "DETTES DE CRÉDIT - BAIL ET CONTRATS ASSIMILÉS",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "18",
+    "libelle": "DETTES LIÉES À DES PARTICIPATIONS ET COMPTES DE LIAISON DES ÉTABLISSEMENTS ET SOCIÉTÉS EN PARTICIPATION",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "19",
+    "libelle": "PROVISIONS FINANCIERES POUR RISQUES ET CHARGES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "20",
+    "libelle": "CHARGES IMMOBILISÉES",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "21",
+    "libelle": "IMMOBILISATIONS INCORPORELLES",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "22",
+    "libelle": "TERRAINS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "23",
+    "libelle": "BÂTIMENTS, INSTALLATIONS TECHNIQUES ET AGENCEMENTS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "24",
+    "libelle": "MATÉRIEL",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "25",
+    "libelle": "AVANCES ET ACOMPTES VERSÉS SUR IMMOBILISATIONS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "26",
+    "libelle": "TITRES DE PARTICIPATION",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "27",
+    "libelle": "AUTRES IMMOBILISATIONS FINANCIÈRES",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "28",
+    "libelle": "AMORTISSEMENTS",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "29",
+    "libelle": "PROVISIONS POUR DÉPRÉCIATION",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "31",
+    "libelle": "MARCHANDISES",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "32",
+    "libelle": "MATIÈRES PREMIERES ET FOURNITURES LIÉES",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "33",
+    "libelle": "AUTRES APPROVISIONNEMENTS",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "34",
+    "libelle": "PRODUITS EN COURS",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "35",
+    "libelle": "SERVICES EN COURS",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "36",
+    "libelle": "PRODUITS FINIS",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "37",
+    "libelle": "PRODUITS INTERMÉDIAIRES ET RÉSIDUELS",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "38",
+    "libelle": "STOCKS EN COURS DE ROUTE, EN CONSIGNATION OU EN DÉPÔT",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "39",
+    "libelle": "DÉPRÉCIATIONS DES STOCKS",
+    "classe": 3,
+    "nature": "amortissement"
+  },
+  {
+    "code": "40",
+    "libelle": "FOURNISSEURS ET COMPTES RATTACHÉS",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "41",
+    "libelle": "CLIENTS ET COMPTES RATTACHÉS",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "42",
+    "libelle": "PERSONNEL",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "43",
+    "libelle": "ORGANISMES SOCIAUX",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "44",
+    "libelle": "ÉTAT ET COLLECTIVITÉS PUBLIQUES",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "45",
+    "libelle": "ORGANISMES INTERNATIONAUX",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "46",
+    "libelle": "ASSOCIÉS-GROUPE",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "47",
+    "libelle": "DÉBITEURS ET CRÉDITEURS DIVERS",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "48",
+    "libelle": "CRÉANCES ET DETTES HORS ACTIVITÉS ORDINAIRES (H.A.O.)",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "49",
+    "libelle": "DÉPRÉCIATIONS ET RISQUES PROVISIONNÉS (Tiers)",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "50",
+    "libelle": "TITRES DE PLACEMENT",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "51",
+    "libelle": "VALEURS À ENCAISSER",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "52",
+    "libelle": "BANQUES",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "53",
+    "libelle": "ÉTABLISSEMENTS FINANCIERS ET ASSIMILÉS",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "54",
+    "libelle": "INSTRUMENTS DE TRÉSORERIE",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "56",
+    "libelle": "BANQUES, CRÉDITS DE TRÉSORERIE ET D'ESCOMPTE",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "57",
+    "libelle": "CAISSE",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "58",
+    "libelle": "RÉGIES D'AVANCES, ACCRÉDITIFS ET VIREMENTS INTERNES",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "59",
+    "libelle": "DÉPRÉCIATIONS ET RISQUES PROVISIONNÉS",
+    "classe": 5,
+    "nature": "amortissement"
+  },
+  {
+    "code": "60",
+    "libelle": "ACHATS ET VARIATIONS DE STOCKS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "61",
+    "libelle": "TRANSPORTS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "62",
+    "libelle": "SERVICES EXTÉRIEURS A",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "63",
+    "libelle": "SERVICES EXTÉRIEURS B",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "64",
+    "libelle": "IMPÔTS ET TAXES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "65",
+    "libelle": "AUTRES CHARGES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "66",
+    "libelle": "CHARGES DE PERSONNEL",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "67",
+    "libelle": "FRAIS FINANCIERS ET CHARGES ASSIMILÉES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "68",
+    "libelle": "DOTATIONS AUX AMORTISSEMENTS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "69",
+    "libelle": "DOTATIONS AUX PROVISIONS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "70",
+    "libelle": "VENTES",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "71",
+    "libelle": "SUBVENTIONS D'EXPLOITATION",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "72",
+    "libelle": "PRODUCTION IMMOBILISÉE",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "73",
+    "libelle": "VARIATIONS DE STOCKS DE BIENS ET DE SERVICES PRODUITS",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "75",
+    "libelle": "AUTRES PRODUITS",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "77",
+    "libelle": "REVENUS FINANCIERS ET ASSIMILÉS",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "78",
+    "libelle": "TRANSFERTS DE CHARGES",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "79",
+    "libelle": "REPRISES DE PROVISIONS",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "81",
+    "libelle": "VALEURS COMPTABLES DES CESSIONS D'IMMOBILISATIONS",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "82",
+    "libelle": "PRODUITS DES CESSIONS D'IMMOBILISATIONS",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "83",
+    "libelle": "CHARGES HORS ACTIVITÉS ORDINAIRES",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "84",
+    "libelle": "PRODUITS HORS ACTIVITÉS ORDINAIRES",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "85",
+    "libelle": "DOTATIONS HORS ACTIVITÉS ORDINAIRES",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "86",
+    "libelle": "REPRISES HORS ACTIVITÉS ORDINAIRES",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "87",
+    "libelle": "PARTICIPATION DES TRAVAILLEURS",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "88",
+    "libelle": "SUBVENTIONS D'ÉQUILIBRE",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "89",
+    "libelle": "IMPÔTS SUR LE RÉSULTAT",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "101",
+    "libelle": "CAPITAL SOCIAL",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "102",
+    "libelle": "CAPITAL PAR DOTATION",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "103",
+    "libelle": "CAPITAL PERSONNEL",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "104",
+    "libelle": "COMPTE DE L'EXPLOITANT",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "105",
+    "libelle": "PRIMES LIÉES AUX CAPITAUX PROPRES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "106",
+    "libelle": "ÉCARTS DE RÉÉVALUATION",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "109",
+    "libelle": "ACTIONNAIRES, CAPITAL SOUSCRIT, NON APPELÉ",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "111",
+    "libelle": "RÉSERVE LÉGALE",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "112",
+    "libelle": "RÉSERVES STATUTAIRES OU CONTRACTUELLES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "113",
+    "libelle": "RÉSERVES RÉGLEMENTÉES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "118",
+    "libelle": "AUTRES RÉSERVES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "121",
+    "libelle": "REPORT À NOUVEAU CRÉDITEUR",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "129",
+    "libelle": "REPORT À NOUVEAU DÉBITEUR",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "130",
+    "libelle": "RÉSULTAT EN INSANCE D’AFFECTATION",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "131",
+    "libelle": "RÉSULTAT NET : BÉNÉFICE",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "132",
+    "libelle": "MARGE BRUTE (M.B.)",
+    "classe": 1,
+    "nature": "indicateur"
+  },
+  {
+    "code": "133",
+    "libelle": "VALEUR AJOUTÉE (V.A.)",
+    "classe": 1,
+    "nature": "indicateur"
+  },
+  {
+    "code": "134",
+    "libelle": "EXCÉDENT BRUT D'EXPLOITATION (E.B.E.)",
+    "classe": 1,
+    "nature": "indicateur"
+  },
+  {
+    "code": "135",
+    "libelle": "RÉSULTAT D'EXPLOITATION (R.E.)",
+    "classe": 1,
+    "nature": "indicateur"
+  },
+  {
+    "code": "136",
+    "libelle": "RÉSULTAT FINANCIER (R.F.)",
+    "classe": 1,
+    "nature": "indicateur"
+  },
+  {
+    "code": "137",
+    "libelle": "RÉSULTAT DES ACTIVITÉS ORDINAIRES (R.A.O.)",
+    "classe": 1,
+    "nature": "indicateur"
+  },
+  {
+    "code": "138",
+    "libelle": "RÉSULTAT HORS ACTIVITÉS ORDINAIRES (R.H.A.O.)",
+    "classe": 1,
+    "nature": "indicateur"
+  },
+  {
+    "code": "139",
+    "libelle": "RÉSULTAT NET : PERTE",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "141",
+    "libelle": "SUBVENTIONS D'ÉQUIPEMENT A",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "142",
+    "libelle": "SUBVENTIONS D'ÉQUIPEMENT B",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "148",
+    "libelle": "AUTRES SUBVENTIONS D'INVESTISSEMENT",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "151",
+    "libelle": "AMORTISSEMENTS DÉROGATOIRES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "152",
+    "libelle": "PLUS-VALUES DE CESSION À RÉINVESTIR",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "153",
+    "libelle": "FONDS RÉGLEMENTÉS",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "154",
+    "libelle": "PROVISION SPÉCIALE DE RÉÉVALUATION",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "155",
+    "libelle": "PROVISIONS RÉGLEMENTÉES RELATIVES AUX IMMOBILISATIONS",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "156",
+    "libelle": "PROVISIONS RÉGLEMENTÉES RELATIVES AUX STOCKS",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "157",
+    "libelle": "PROVISIONS POUR INVESTISSEMENT",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "158",
+    "libelle": "AUTRES PROVISIONS ET FONDS RÉGLEMENTES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "161",
+    "libelle": "EMPRUNTS OBLIGATAIRES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "162",
+    "libelle": "EMPRUNTS ET DETTES AUPRÈS DES ÉTABLISSEMENTS DE CRÉDIT",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "163",
+    "libelle": "AVANCES REÇUES DE L'ÉTAT",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "164",
+    "libelle": "AVANCES REÇUES ET COMPTES COURANTS BLOQUÉS",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "165",
+    "libelle": "DÉPÔTS ET CAUTIONNEMENTS RECUS",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "166",
+    "libelle": "INTÉRÊTS COURUS",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "167",
+    "libelle": "AVANCES ASSORTIES DE CONDITIONS PARTICULIÈRES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "168",
+    "libelle": "AUTRES EMPRUNTS ET DETTES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "172",
+    "libelle": "EMPRUNTS ÉQUIVALENTS DE CRÉDIT - BAIL IMMOBILIER",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "173",
+    "libelle": "EMPRUNTS ÉQUIVALENTS DE CRÉDIT - BAIL MOBILIER",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "176",
+    "libelle": "INTÉRÊTS COURUS",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "178",
+    "libelle": "EMPRUNTS ÉQUIVALENTS D’AUTRES CONTRATS",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "181",
+    "libelle": "DETTES LIÉES À DES PARTICIPATIONS",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "182",
+    "libelle": "DETTES LIÉES À DES SOCIÉTÉS EN PARTICIPATION",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "183",
+    "libelle": "INTÉRÊTS COURUS SUR DETTES LIÉES À DES PARTICIPATIONS",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "184",
+    "libelle": "COMPTES PERMANENTS BLOQUÉS DES ÉTABLISSEMENTS ET SUCCURSALES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "185",
+    "libelle": "COMPTES PERMANENTS NON BLOQUÉS DES ÉTABLISSEMENTS ET SUCCURSALES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "186",
+    "libelle": "COMPTES DE LIAISON CHARGES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "187",
+    "libelle": "COMPTES DE LIAISON PRODUITS",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "188",
+    "libelle": "COMPTES DE LIAISON DES SOCIÉTÉS EN PARTICIPATION",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "191",
+    "libelle": "PROVISIONS POUR LITIGES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "192",
+    "libelle": "PROVISIONS POUR GARANTIES DONNÉES AUX CLIENTS",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "193",
+    "libelle": "PROVISIONS POUR PERTES SUR MARCHÉS À ACHÈVEMENT FUTUR",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "194",
+    "libelle": "PROVISIONS POUR PERTES DE CHANGE",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "195",
+    "libelle": "PROVISIONS POUR IMPÔTS",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "196",
+    "libelle": "PROVISIONS POUR PENSIONS ET OBLIGATIONS SIMILAIRES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "197",
+    "libelle": "PROVISIONS POUR CHARGES À REPARTIR SUR PLUSIEURS EXERCICES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "198",
+    "libelle": "AUTRES PROVISIONS FINANCIÈRES POUR RISQUES ET CHARGES",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "201",
+    "libelle": "FRAIS D'ÉTABLISSEMENT",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "202",
+    "libelle": "CHARGES À RÉPARTIR SUR PLUSIEURS EXERCICES",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "206",
+    "libelle": "PRIMES DE REMBOURSEMENT DES OBLIGATIONS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "211",
+    "libelle": "FRAIS DE RECHERCHE ET DE DÉVELOPPEMENT",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "212",
+    "libelle": "BREVETS, LICENCES, CONCESSIONS ET DROITS SIMILAIRES",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "213",
+    "libelle": "LOGICIELS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "214",
+    "libelle": "MARQUES",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "215",
+    "libelle": "FONDS COMMERCIAL",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "216",
+    "libelle": "DROIT AU BAIL",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "217",
+    "libelle": "INVESTISSEMENTS DE CRÉATION",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "218",
+    "libelle": "AUTRES DROITS ET VALEURS INCORPORELS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "219",
+    "libelle": "IMMOBILISATIONS INCORPORELLES EN COURS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "221",
+    "libelle": "TERRAINS AGRICOLES ET FORESTIERS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "222",
+    "libelle": "TERRAINS NUS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "223",
+    "libelle": "TERRAINS BÂTIS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "224",
+    "libelle": "TRAVAUX DE MISE EN VALEUR DES TERRAINS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "225",
+    "libelle": "TERRAINS DE GISEMENT",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "226",
+    "libelle": "TERRAINS AMÉNAGÉS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "227",
+    "libelle": "TERRAINS MIS EN CONCESSION",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "228",
+    "libelle": "AUTRES TERRAINS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "229",
+    "libelle": "AMÉNAGEMENTS DE TERRAINS EN COURS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "231",
+    "libelle": "BÂTIMENTS INDUSTRIELS, AGRICOLES, ADMINISTRATIFS ET COMMERCIAUX SUR SOL PROPRE",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "232",
+    "libelle": "BÂTIMENTS INDUSTRIELS, AGRICOLES, ADMINISTRATIFS ET COMMERCIAUX SUR SOL D’AUTRUI",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "233",
+    "libelle": "OUVRAGES D’INFRASTRUCTURE",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "234",
+    "libelle": "INSTALLATIONS TECHNIQUES",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "235",
+    "libelle": "AMENAGEMENTS DE BUREAUX",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "237",
+    "libelle": "BÂTIMENTS INDUSTRIELS, AGRICOLES ET COMMERCIAUX MIS EN CONCESSION",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "238",
+    "libelle": "AUTRES INSTALLATIONS ET AGENCEMENTS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "239",
+    "libelle": "BÂTIMENTS ET INSTALLATIONS EN COURS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "241",
+    "libelle": "MATÉRIEL ET OUTILLAGE INDUSTRIEL ET COMMERCIAL",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "242",
+    "libelle": "MATÉRIEL ET OUTILLAGE AGRICOLE",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "243",
+    "libelle": "MATÉRIEL D’EMBALLAGE RÉCUPÉRABLE ET IDENTIFIABLE",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "244",
+    "libelle": "MATÉRIEL ET MOBILIER",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "245",
+    "libelle": "MATÉRIEL DE TRANSPORT",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "246",
+    "libelle": "IMMOBILISATIONS ANIMALES ET AGRICOLES",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "247",
+    "libelle": "AGENCEMENTS ET AMÉNAGEMENTS DU MATÉRIEL",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "248",
+    "libelle": "AUTRES MATÉRIELS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "249",
+    "libelle": "MATÉRIEL EN COURS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "251",
+    "libelle": "AVANCES ET ACOMPTES VERSÉS SUR IMMOBILISATIONS INCORPORELLES",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "252",
+    "libelle": "AVANCES ET ACOMPTES VERSÉS SUR IMMOBILISATIONS CORPORELLES",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "261",
+    "libelle": "TITRES DE PARTICIPATION DANS DES SOCIÉTÉS SOUS CONTRÔLE EXCLUSIF",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "262",
+    "libelle": "TITRES DE PARTICIPATION DANS DES SOCIÉTÉS SOUS CONTRÔLE CONJOINT",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "263",
+    "libelle": "TITRES DE PARTICIPATION DANS DES SOCIÉTÉS CONFÉRANT UNE INFLUENCE NOTABLE",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "265",
+    "libelle": "PARTICIPATIONS DANS DES ORGANISMES PROFESSIONNELS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "266",
+    "libelle": "PARTS DANS DES GROUPEMENTS D’INTÉRÊT ÉCONOMIQUE (G.I.E.)",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "268",
+    "libelle": "AUTRES TITRES DE PARTICIPATION",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "271",
+    "libelle": "PRÊTS ET CRÉANCES NON COMMERCIALES",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "272",
+    "libelle": "PRÊTS AU PERSONNEL",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "273",
+    "libelle": "CRÉANCES SUR L’ÉTAT",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "274",
+    "libelle": "TITRES IMMOBILISÉS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "275",
+    "libelle": "DÉPÔTS ET CAUTIONNEMENTS VERSÉS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "276",
+    "libelle": "INTÉRÊTS COURUS",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "277",
+    "libelle": "CRÉANCES RATTACHÉES À DES PARTICIPATIONS ET AVANCES À DES G.I.E",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "278",
+    "libelle": "IMMOBILISATIONS FINANCIÈRES DIVERSES",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "281",
+    "libelle": "AMORTISSEMENTS DES IMMOBILISATIONS INCORPORELLES",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "282",
+    "libelle": "AMORTISSEMENTS DES TERRAINS",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "283",
+    "libelle": "AMORTISSEMENTS DES BÂTIMENTS, INSTALLATIONS TECHNIQUES ET AGENCEMENTS",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "284",
+    "libelle": "AMORTISSEMENTS DU MATÉRIEL",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "291",
+    "libelle": "PROVISIONS POUR DÉPRÉCIATION DES IMMOBILISATIONS INCORPORELLES",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "292",
+    "libelle": "PROVISIONS POUR DÉPRÉCIATION DES TERRAINS",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "293",
+    "libelle": "PROVISIONS POUR DÉPRÉCIATION DES BÂTIMENTS, INSTALLATIONS TECHNIQUES ET AGENCEMENTS",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "294",
+    "libelle": "PROVISIONS POUR DÉPRÉCIATION DE MATÉRIEL",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "295",
+    "libelle": "PROVISIONS POUR DÉPRÉCIATION DES AVANCES ET ACOMPTES VERSÉS SUR IMMOBILISATIONS",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "296",
+    "libelle": "PROVISIONS POUR DÉPRÉCIATION DES TITRES DE PARTICIPATION",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "297",
+    "libelle": "PROVISIONS POUR DÉPRÉCIATION DES AUTRES IMMOBILISATIONS FINANCIÈRES",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "311",
+    "libelle": "MARCHANDISES A",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "312",
+    "libelle": "MARCHANDISES B",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "318",
+    "libelle": "MARCHANDISES HORS ACTIVITÉS ORDINAIRES (H.A.O.)",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "321",
+    "libelle": "MATIÈRES A",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "322",
+    "libelle": "MATIÈRES B",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "323",
+    "libelle": "FOURNITURES (A,B)",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "331",
+    "libelle": "MATIÈRES CONSOMMABLES",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "332",
+    "libelle": "FOURNITURES D'ATELIER ET D'USINE",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "333",
+    "libelle": "FOURNITURES DE MAGASIN",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "334",
+    "libelle": "FOURNITURES DE BUREAU",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "335",
+    "libelle": "EMBALLAGES",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "338",
+    "libelle": "AUTRES MATIÈRES",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "341",
+    "libelle": "PRODUITS EN COURS",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "342",
+    "libelle": "TRAVAUX EN COURS",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "343",
+    "libelle": "PRODUITS INTERMÉDIAIRES EN COURS",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "344",
+    "libelle": "PRODUITS RÉSIDUELS EN COURS",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "351",
+    "libelle": "ÉTUDES EN COURS",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "352",
+    "libelle": "PRESTATIONS DE SERVICES EN COURS",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "361",
+    "libelle": "PRODUITS FINIS A",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "362",
+    "libelle": "PRODUITS FINIS B",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "371",
+    "libelle": "PRODUITS INTERMÉDIAIRES",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "372",
+    "libelle": "PRODUITS RÉSIDUELS",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "381",
+    "libelle": "MARCHANDISES EN COURS DE ROUTE",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "382",
+    "libelle": "MATIÈRES PREMIÈRES ET FOURNITURES LIÉES EN COURS DE ROUTE",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "383",
+    "libelle": "AUTRES APPROVISIONNEMENTS EN COURS DE ROUTE",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "386",
+    "libelle": "PRODUITS FINIS EN COURS DE ROUTE",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "387",
+    "libelle": "STOCK EN CONSIGNATION OU EN DÉPÔT",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "388",
+    "libelle": "STOCK PROVENANT D'IMMOBILISATIONS MISES HORS SERVICE OU AU REBUT",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "391",
+    "libelle": "DÉPRÉCIATIONS DES STOCKS DE MARCHANDISES",
+    "classe": 3,
+    "nature": "amortissement"
+  },
+  {
+    "code": "392",
+    "libelle": "DÉPRÉCIATIONS DES STOCKS DE MATIÈRES PREMIÈRES ET FOURNITURES LIÉES",
+    "classe": 3,
+    "nature": "amortissement"
+  },
+  {
+    "code": "393",
+    "libelle": "DÉPRÉCIATIONS DES STOCKS D'AUTRES APPOVISIONNEMENTS",
+    "classe": 3,
+    "nature": "amortissement"
+  },
+  {
+    "code": "394",
+    "libelle": "DÉPRÉCIATIONS DES PRODUCTIONS EN COURS",
+    "classe": 3,
+    "nature": "amortissement"
+  },
+  {
+    "code": "395",
+    "libelle": "DÉPRÉCIATIONS DES SERVICES EN COURS",
+    "classe": 3,
+    "nature": "amortissement"
+  },
+  {
+    "code": "396",
+    "libelle": "DÉPRÉCIATIONS DES STOCKS DE PRODUITS FINIS",
+    "classe": 3,
+    "nature": "amortissement"
+  },
+  {
+    "code": "397",
+    "libelle": "DÉPRÉCIATIONS DES STOCKS DE PRODUITS INTERMÉDIAIRES ET RÉSIDUELS",
+    "classe": 3,
+    "nature": "amortissement"
+  },
+  {
+    "code": "398",
+    "libelle": "DÉPRÉCIATIONS DES STOCKS EN COURS DE ROUTE, EN CONSIGNATION OU EN DÉPÔT COMPTES DE TIERS CLASSE 4",
+    "classe": 3,
+    "nature": "amortissement"
+  },
+  {
+    "code": "401",
+    "libelle": "FOURNISSEURS, DETTES EN COMPTE",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "402",
+    "libelle": "FOURNISSEURS, EFFETS À PAYER",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "408",
+    "libelle": "FOURNISSEURS, FACTURES NON PARVENUES",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "409",
+    "libelle": "FOURNISSEURS DÉBITEURS",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "411",
+    "libelle": "CLIENTS",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "412",
+    "libelle": "CLIENTS, ÉFFETS À RECEVOIR EN PORTEFEUILLE",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "414",
+    "libelle": "CRÉANCES SUR CESSIONS D'IMMOBILISATIONS",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "415",
+    "libelle": "CLIENTS, ÉFFETS ESCOMPTÉS NON ÉCHUS",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "416",
+    "libelle": "CRÉANCES CLIENTS LITIGIEUSES OU DOUTEUSES",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "418",
+    "libelle": "CLIENTS, PRODUITS À RECEVOIR",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "419",
+    "libelle": "CLIENTS CRÉDITEURS",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "421",
+    "libelle": "PERSONNEL, AVANCES ET ACOMPTES",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "422",
+    "libelle": "Personnel, rémunérations dues",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "423",
+    "libelle": "PERSONNEL, OPPOSITIONS, SAISIES-ARRÊTS",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "424",
+    "libelle": "PERSONNEL, OEUVRES SOCIALES INTERNES",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "425",
+    "libelle": "REPRÉSENTANTS DU PERSONNEL",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "426",
+    "libelle": "PERSONNEL, PARTICIPATION AUX BÉNÉFICES",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "427",
+    "libelle": "PERSONNEL – DÉPÔTS",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "428",
+    "libelle": "PERSONNEL, CHARGES À PAYER ET PRODUITS À RECEVOIR",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "431",
+    "libelle": "Sécurité sociale",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "432",
+    "libelle": "CAISSES DE RETRAITE COMPLÉMENTAIRE",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "433",
+    "libelle": "AUTRES ORGANISMES SOCIAUX",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "438",
+    "libelle": "ORGANISMES SOCIAUX, CHARGES À PAYER ET PRODUITS À RECEVOIR",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "441",
+    "libelle": "ÉTAT, IMPÔT SUR LES BÉNÉFICES",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "442",
+    "libelle": "ÉTAT, AUTRES IMPÔTS ET TAXES",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "443",
+    "libelle": "ÉTAT, T.V.A. FACTURÉE",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "444",
+    "libelle": "ÉTAT, T.V.A. DUE OU CRÉDIT DE T.V.A",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "445",
+    "libelle": "ÉTAT, T.V.A. RÉCUPÉRABLE",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "446",
+    "libelle": "ÉTAT, AUTRES TAXES SUR LE CHIFFRE D'AFFAIRES",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "447",
+    "libelle": "ÉTAT, IMPÔTS RETENUS À LA SOURCE",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "448",
+    "libelle": "ÉTAT, CHARGES À PAYER ET PRODUITS À RECEVOIR",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "449",
+    "libelle": "ÉTAT, CRÉANCES ET DETTES DIVERSES",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "451",
+    "libelle": "OPÉRATIONS AVEC LES ORGANISMES AFRICAINS",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "452",
+    "libelle": "OPÉRATIONS AVEC LES AUTRES ORGANISMES INTERNATIONAUX",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "458",
+    "libelle": "ORGANISMES INTERNATIONAUX, FONDS DE DOTATION ET SUBVENTIONS À RECEVOIR",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "461",
+    "libelle": "ASSOCIÉS, OPÉRATIONS SUR LE CAPITAL",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "462",
+    "libelle": "ASSOCIÉS, COMPTES COURANTS",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "463",
+    "libelle": "ASSOCIÉS, OPÉRATIONS FAITES EN COMMUN",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "465",
+    "libelle": "ASSOCIÉS, DIVIDENDES À PAYER",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "466",
+    "libelle": "GROUPE, COMPTES COURANTS",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "467",
+    "libelle": "ACTIONNAIRES, RESTANT DÛ SUR CAPITAL APPELÉ",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "471",
+    "libelle": "COMPTES D'ATTENTE",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "472",
+    "libelle": "VERSEMENTS RESTANT À EFFECTUER SUR TITRES NON LIBÉRÉS",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "474",
+    "libelle": "RÉPARTITION PÉRIODIQUE DES CHARGES ET DES PRODUITS",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "475",
+    "libelle": "CRÉANCES SUR TRAVAUX NON ENCORE FACTURABLES",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "476",
+    "libelle": "CHARGES CONSTATÉES D'AVANCE",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "477",
+    "libelle": "PRODUITS CONSTATÉS D'AVANCE",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "478",
+    "libelle": "ÉCARTS DE CONVERSION - ACTIF",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "479",
+    "libelle": "ÉCARTS DE CONVERSION - PASSIF",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "481",
+    "libelle": "FOURNISSEURS D'INVESTISSEMENTS",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "482",
+    "libelle": "FOURNISSEURS D'INVESTISSEMENTS, EFFETS À PAYER",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "483",
+    "libelle": "DETTES SUR ACQUISITION DE TITRES DE PLACEMENT",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "484",
+    "libelle": "AUTRES DETTES HORS ACTIVITES ORDINAIRES (H.A.O.)",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "485",
+    "libelle": "CRÉANCES SUR CESSIONS D'IMMOBILISATIONS",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "486",
+    "libelle": "CRÉANCES SUR CESSIONS DE TITRES DE PLACEMENT",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "488",
+    "libelle": "AUTRES CRÉANCES HORS ACTIVITÉS ORDINAIRES (H.A.O.)",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "490",
+    "libelle": "DÉPRÉCIATIONS DES COMPTES FOURNISSEURS",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "491",
+    "libelle": "DÉPRÉCIATIONS DES COMPTES CLIENTS",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "492",
+    "libelle": "DÉPRÉCIATIONS DES COMPTES PERSONNEL",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "493",
+    "libelle": "DÉPRÉCIATIONS DES COMPTES ORGANISMES SOCIAUX",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "494",
+    "libelle": "DÉPRÉCIATIONS DES COMPTES ÉTAT ET COLLECTIVITÉS PUBLIQUES",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "495",
+    "libelle": "DÉPRÉCIATIONS DES COMPTES ORGANISMES INTERNATIONAUX",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "496",
+    "libelle": "DÉPRÉCIATIONS DES COMPTES ASSOCIÉS ET GROUPE",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "497",
+    "libelle": "DÉPRÉCIATIONS DES COMPTES DÉBITEURS DIVERS",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "498",
+    "libelle": "DÉPRÉCIATIONS DES COMPTES DE CRÉANCES H.A.O",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "499",
+    "libelle": "RISQUES PROVISIONNÉS",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "501",
+    "libelle": "TITRES DU TRÉSOR ET BONS DE CAISSE À COURT TERME",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "502",
+    "libelle": "ACTIONS",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "503",
+    "libelle": "OBLIGATIONS",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "504",
+    "libelle": "BONS DE SOUSCRIPTION",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "505",
+    "libelle": "TITRES NÉGOCIABLES HORS REGION",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "506",
+    "libelle": "INTÉRÊTS COURUS",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "508",
+    "libelle": "AUTRES VALEURS ASSIMILÉES",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "511",
+    "libelle": "EFFETS À ENCAISSER",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "512",
+    "libelle": "EFFETS À L'ENCAISSEMENT",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "513",
+    "libelle": "CHÈQUES À ENCAISSER",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "514",
+    "libelle": "CHÈQUES À L'ENCAISSEMENT",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "515",
+    "libelle": "CARTES DE CRÉDIT À ENCAISSER",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "518",
+    "libelle": "AUTRES VALEURS À L'ENCAISSEMENT",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "521",
+    "libelle": "BANQUES LOCALES",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "522",
+    "libelle": "BANQUES AUTRES ÉTATS REGION",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "523",
+    "libelle": "BANQUES AUTRES ETATS ZONE MONETAIRE",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "526",
+    "libelle": "BANQUES HORS ZONE MONETAIRE BANQUES, INTERETS COURUS",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "531",
+    "libelle": "CHÈQUES POSTAUX",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "532",
+    "libelle": "TRÉSOR",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "536",
+    "libelle": "SOCIÉTÉS DE GESTION ET D'INTERMÉDIATION (S.G.I.) ETABLISSEMENTS FINANCIERS, INTERETS COURUS",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "538",
+    "libelle": "AUTRES ORGANISMES FINANCIERS",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "541",
+    "libelle": "OPTIONS DE TAUX D'INTÉRÊT",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "542",
+    "libelle": "OPTIONS DE TAUX DE CHANGE",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "543",
+    "libelle": "OPTIONS DE TAUX BOURSIERS",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "544",
+    "libelle": "INSTRUMENTS DE MARCHÉS À TERME",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "545",
+    "libelle": "AVOIRS D'OR ET AUTRES MÉTAUX PRÉCIEUX ()",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "561",
+    "libelle": "CRÉDITS DE TRÉSORERIE",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "564",
+    "libelle": "ESCOMPTE DE CRÉDITS DE CAMPAGNE",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "566",
+    "libelle": "ESCOMPTE DE CRÉDITS ORDINAIRES BANQUES, CREDITS DE TRESORERIE, INTERETS COURUS",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "571",
+    "libelle": "Caisse du siège",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "572",
+    "libelle": "CAISSE SUCCURSALE A",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "573",
+    "libelle": "CAISSE SUCCURSALE B",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "581",
+    "libelle": "RÉGIES D'AVANCE",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "582",
+    "libelle": "ACCRÉDITIFS",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "585",
+    "libelle": "VIREMENTS DE FONDS",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "588",
+    "libelle": "AUTRES VIREMENTS INTERNES",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "590",
+    "libelle": "DÉPRÉCIATIONS DES TITRES DE PLACEMENT",
+    "classe": 5,
+    "nature": "amortissement"
+  },
+  {
+    "code": "591",
+    "libelle": "DÉPRÉCIATIONS DES TITRES ET VALEURS À ENCAISSER",
+    "classe": 5,
+    "nature": "amortissement"
+  },
+  {
+    "code": "592",
+    "libelle": "DÉPRÉCIATIONS DES COMPTES BANQUES",
+    "classe": 5,
+    "nature": "amortissement"
+  },
+  {
+    "code": "593",
+    "libelle": "DÉPRÉCIATIONS DES COMPTES ÉTABLISSEMENTS FINANCIERS ET ASSIMILÉS",
+    "classe": 5,
+    "nature": "amortissement"
+  },
+  {
+    "code": "594",
+    "libelle": "DÉPRÉCIATIONS DES COMPTES D’INSTRUMENTS DE TRÉSORERIE",
+    "classe": 5,
+    "nature": "amortissement"
+  },
+  {
+    "code": "599",
+    "libelle": "RISQUES PROVISIONNÉS À CARACTÈRE FINANCIER COMPTES DE CHARGES DES ACTIVITÉS ORDINAIRES CLASSE 6",
+    "classe": 5,
+    "nature": "amortissement"
+  },
+  {
+    "code": "601",
+    "libelle": "ACHATS DE MARCHANDISES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "602",
+    "libelle": "ACHATS DE MATIÈRES PREMIÈRES ET FOURNITURES LIÉES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "603",
+    "libelle": "VARIATIONS DES STOCKS DE BIENS ACHETÉS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "604",
+    "libelle": "ACHATS STOCKÉS DE MATIÈRES ET FOURNITURES CONSOMMABLES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "605",
+    "libelle": "AUTRES ACHATS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "608",
+    "libelle": "ACHATS D'EMBALLAGES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "611",
+    "libelle": "TRANSPORTS SUR ACHATS()",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "612",
+    "libelle": "TRANSPORTS SUR VENTES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "613",
+    "libelle": "TRANSPORTS POUR LE COMPTE DE TIERS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "614",
+    "libelle": "TRANSPORTS DU PERSONNEL",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "616",
+    "libelle": "TRANSPORTS DE PLIS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "618",
+    "libelle": "AUTRES FRAIS DE TRANSPORT",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "621",
+    "libelle": "SOUS-TRAITANCE GÉNÉRALE",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "622",
+    "libelle": "LOCATIONS ET CHARGES LOCATIVES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "623",
+    "libelle": "REDEVANCES DE CRÉDIT-BAIL ET CONTRATS ASSIMILÉS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "624",
+    "libelle": "ENTRETIEN, RÉPARATIONS ET MAINTENANCE",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "625",
+    "libelle": "PRIMES D'ASSURANCE",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "626",
+    "libelle": "ÉTUDES, RECHERCHES ET DOCUMENTATION",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "627",
+    "libelle": "PUBLICITÉ, PUBLICATIONS, RELATIONS PUBLIQUES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "628",
+    "libelle": "FRAIS DE TÉLÉCOMMUNICATIONS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "631",
+    "libelle": "FRAIS BANCAIRES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "632",
+    "libelle": "RÉMUNÉRATIONS D'INTERMÉDIAIRES ET DE CONSEILS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "633",
+    "libelle": "FRAIS DE FORMATION DU PERSONNEL",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "634",
+    "libelle": "REDEVANCES POUR BREVETS, LICENCES, LOGICIELS ET DROITS SIMILAIRES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "635",
+    "libelle": "COTISATIONS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "637",
+    "libelle": "RÉMUNÉRATIONS DE PERSONNEL EXTÉRIEUR À L'ENTREPRISE",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "638",
+    "libelle": "AUTRES CHARGES EXTERNES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "641",
+    "libelle": "IMPÔTS ET TAXES DIRECTS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "645",
+    "libelle": "IMPÔTS ET TAXES INDIRECTS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "646",
+    "libelle": "DROITS D'ENREGISTREMENT",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "647",
+    "libelle": "PÉNALITÉS ET AMENDES FISCALES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "648",
+    "libelle": "AUTRES IMPÔTS ET TAXES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "651",
+    "libelle": "PERTES SUR CRÉANCES CLIENTS ET AUTRES DÉBITEURS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "652",
+    "libelle": "QUOTE-PART DE RÉSULTAT SUR OPÉRATIONS FAITES EN COMMUN",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "653",
+    "libelle": "QUOTE-PART DE RÉSULTAT ANNULÉE SUR EXÉCUTION PARTIELLE DE CONTRATS PLURI-EXERCICES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "654",
+    "libelle": "VALEUR COMPTABLE DES CESSIONS COURANTES D'IMMOBILISATIONS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "658",
+    "libelle": "CHARGES DIVERSES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "659",
+    "libelle": "CHARGES PROVISIONNÉES D'EXPLOITATION",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "661",
+    "libelle": "RÉMUNÉRATIONS DIRECTES VERSÉES AU PERSONNEL NATIONAL",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "662",
+    "libelle": "RÉMUNÉRATIONS DIRECTES VERSÉES AU PERSONNEL NON NATIONAL",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "663",
+    "libelle": "INDEMNITÉS FORFAITAIRES VERSÉES AU PERSONNEL",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "664",
+    "libelle": "CHARGES SOCIALES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "666",
+    "libelle": "RÉMUNÉRATIONS ET CHARGES SOCIALES DE L'EXPLOITANT INDIVIDUEL",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "667",
+    "libelle": "RÉMUNÉRATION TRANSFÉRÉE DE PERSONNEL EXTÉRIEUR",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "668",
+    "libelle": "AUTRES CHARGES SOCIALES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "671",
+    "libelle": "INTÉRÊTS DES EMPRUNTS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "672",
+    "libelle": "INTÉRÊTS DANS LOYERS DE CRÉDIT-BAIL ET CONTRATS ASSIMILÉS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "673",
+    "libelle": "ESCOMPTES ACCORDÉS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "674",
+    "libelle": "AUTRES INTÉRÊTS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "675",
+    "libelle": "ESCOMPTES DES EFFETS DE COMMERCE",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "676",
+    "libelle": "PERTES DE CHANGE",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "677",
+    "libelle": "PERTES SUR CESSIONS DE TITRES DE PLACEMENT",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "678",
+    "libelle": "PERTES SUR RISQUES FINANCIERS",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "679",
+    "libelle": "CHARGES PROVISIONNÉES FINANCIÈRES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "681",
+    "libelle": "DOTATIONS AUX AMORTISSEMENTS D'EXPLOITATION",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "687",
+    "libelle": "DOTATIONS AUX AMORTISSEMENTS À CARACTÈRE FINANCIER",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "691",
+    "libelle": "DOTATIONS AUX PROVISIONS D'EXPLOITATION",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "697",
+    "libelle": "DOTATIONS AUX PROVISIONS FINANCIÈRES",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "701",
+    "libelle": "VENTES DE MARCHANDISES",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "702",
+    "libelle": "VENTES DE PRODUITS FINIS",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "703",
+    "libelle": "VENTES DE PRODUITS INTERMÉDIAIRES",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "704",
+    "libelle": "VENTES DE PRODUITS RÉSIDUELS",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "705",
+    "libelle": "TRAVAUX FACTURÉS",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "706",
+    "libelle": "Services vendus",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "707",
+    "libelle": "PRODUITS ACCESSOIRES",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "711",
+    "libelle": "SUR PRODUITS À L'EXPORTATION",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "712",
+    "libelle": "SUR PRODUITS À L'IMPORTATION",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "713",
+    "libelle": "SUR PRODUITS DE PÉRÉQUATION",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "718",
+    "libelle": "AUTRES SUBVENTIONS D'EXPLOITATION",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "721",
+    "libelle": "IMMOBILISATIONS INCORPORELLES",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "722",
+    "libelle": "IMMOBILISATIONS CORPORELLES",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "726",
+    "libelle": "IMMOBILISATIONS FINANCIÈRES ()",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "734",
+    "libelle": "VARIATIONS DES STOCKS DE PRODUITS EN COURS",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "735",
+    "libelle": "VARIATIONS DES EN-COURS DE SERVICES",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "736",
+    "libelle": "VARIATIONS DES STOCKS DE PRODUITS FINIS",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "737",
+    "libelle": "VARIATIONS DES STOCKS DE PRODUITS INTERMÉDIAIRES ET RÉSIDUELS",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "752",
+    "libelle": "QUOTE-PART DE RÉSULTAT SUR OPÉRATIONS FAITES EN COMMUN",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "753",
+    "libelle": "QUOTE-PART DE RÉSULTAT SUR EXÉCUTION PARTIELLE DE CONTRATS PLURI EXERCICES",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "754",
+    "libelle": "PRODUITS DES CESSIONS COURANTES D'IMMOBILISATIONS",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "758",
+    "libelle": "PRODUITS DIVERS",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "759",
+    "libelle": "REPRISES DE CHARGES PROVISIONNÉES D'EXPLOITATION",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "771",
+    "libelle": "INTÉRÊTS DE PRÊTS",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "772",
+    "libelle": "REVENUS DE PARTICIPATIONS",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "773",
+    "libelle": "ESCOMPTES OBTENUS",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "774",
+    "libelle": "REVENUS DE TITRES DE PLACEMENT",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "776",
+    "libelle": "GAINS DE CHANGE",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "777",
+    "libelle": "GAINS SUR CESSIONS DE TITRES DE PLACEMENT",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "778",
+    "libelle": "GAINS SUR RISQUES FINANCIERS",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "779",
+    "libelle": "REPRISES DE CHARGES PROVISIONNÉES FINANCIÈRES",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "781",
+    "libelle": "TRANSFERTS DE CHARGES D'EXPLOITATION",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "787",
+    "libelle": "TRANSFERTS DE CHARGES FINANCIERES",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "791",
+    "libelle": "REPRISES DE PROVISIONS D'EXPLOITATION",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "797",
+    "libelle": "REPRISES DE PROVISIONS FINANCIÈRES",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "798",
+    "libelle": "REPRISES D'AMORTISSEMENTS () COMPTES DES AUTRES CHARGES ET DES AUTRES PRODUITS CLASSE 8",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "811",
+    "libelle": "Valeurs comptables des cessions d'immobilisations incorporelles",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "812",
+    "libelle": "Valeurs comptables des cessions d'immobilisations corporelles",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "816",
+    "libelle": "Valeurs comptables des cessions d'immobilisations financières",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "821",
+    "libelle": "Produits des cessions d'immobilisations incorporelles",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "822",
+    "libelle": "Produits des cessions d'immobilisations corporelles",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "826",
+    "libelle": "Produits des cessions d'immobilisations financières",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "831",
+    "libelle": "CHARGES H.A.O. CONSTATÉES",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "834",
+    "libelle": "PERTES SUR CRÉANCES H.A.O",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "835",
+    "libelle": "DONS ET LIBÉRALITÉS ACCORDÉS",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "836",
+    "libelle": "ABANDONS DE CRÉANCES CONSENTIS",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "839",
+    "libelle": "CHARGES PROVISIONNÉES H.A.O",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "841",
+    "libelle": "PRODUITS H.A.O CONSTATÉS",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "845",
+    "libelle": "DONS ET LIBÉRALITÉS OBTENUS",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "846",
+    "libelle": "ABANDONS DE CRÉANCES OBTENUS",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "848",
+    "libelle": "TRANSFERTS DE CHARGES H.A.O",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "849",
+    "libelle": "REPRISES DES CHARGES PROVISIONNÉES H.A.O",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "851",
+    "libelle": "DOTATIONS AUX PROVISIONS RÉGLEMENTÉES",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "852",
+    "libelle": "DOTATIONS AUX AMORTISSEMENTS H.A.O",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "853",
+    "libelle": "DOTATIONS AUX PROVISIONS POUR DÉPRÉCIATION H.A.O",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "854",
+    "libelle": "DOTATIONS AUX PROVISIONS POUR RISQUES ET CHARGES H.A.O",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "858",
+    "libelle": "AUTRES DOTATIONS H.A.O",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "861",
+    "libelle": "REPRISES DE PROVISIONS RÉGLEMENTÉES",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "862",
+    "libelle": "REPRISES D’AMORTISSEMENTS",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "863",
+    "libelle": "REPRISES DE PROVISIONS POUR DÉPRÉCIATION H.A.O",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "864",
+    "libelle": "REPRISES DE PROVISIONS POUR RISQUES ET CHARGES H.A.O",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "865",
+    "libelle": "REPRISES DE SUBVENTIONS D’INVESTISSEMENT",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "868",
+    "libelle": "AUTRES REPRISES H.A.O",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "871",
+    "libelle": "PARTICIPATION LÉGALE AUX BÉNÉFICES",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "874",
+    "libelle": "PARTICIPATION CONTRACTUELLE AUX BÉNÉFICES",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "878",
+    "libelle": "AUTRES PARTICIPATIONS",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "881",
+    "libelle": "ÉTAT",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "884",
+    "libelle": "COLLECTIVITÉS PUBLIQUES",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "886",
+    "libelle": "GROUPE",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "888",
+    "libelle": "AUTRES",
+    "classe": 8,
+    "nature": "produit"
+  },
+  {
+    "code": "891",
+    "libelle": "IMPÔTS SUR LES BÉNÉFICES DE L'EXERCICE",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "892",
+    "libelle": "RAPPEL D'IMPÔTS SUR RÉSULTATS ANTÉRIEURS",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "895",
+    "libelle": "IMPÔT MINIMUM FORFAITAIRE (I.M.F.)",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "899",
+    "libelle": "DÉGRÈVEMENTS ET ANNULATIONS D’IMPÔTS SUR RÉSULTATS ANTÉRIEURS",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "1011",
+    "libelle": "Capital souscrit, non appelé",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1012",
+    "libelle": "Capital souscrit, appelé, non versé",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1013",
+    "libelle": "Capital souscrit, appelé, versé, non amorti",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1014",
+    "libelle": "Capital souscrit, appelé, versé, amorti",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1018",
+    "libelle": "Capital souscrit soumis à des conditions particulières",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1021",
+    "libelle": "Dotation initiale",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1022",
+    "libelle": "Dotations complémentaires",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1028",
+    "libelle": "Autres dotations",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1041",
+    "libelle": "Apports temporaires",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1042",
+    "libelle": "Opérations courantes",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1043",
+    "libelle": "Rémunérations, impôts et autres charges personnelles",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1047",
+    "libelle": "Prélèvements d’autoconsommation",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1048",
+    "libelle": "Autres prélèvements",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1051",
+    "libelle": "Primes d'émission",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1052",
+    "libelle": "Primes d'apport",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1053",
+    "libelle": "Primes de fusion",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1054",
+    "libelle": "Primes de conversion",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1058",
+    "libelle": "Autres primes",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1061",
+    "libelle": "Écarts de réévaluation légale",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1062",
+    "libelle": "Écarts de réévaluation libre",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1131",
+    "libelle": "Réserves de plus-values nettes à long terme",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1133",
+    "libelle": "Réserves consécutives à l'octroi de subventions d'investissement",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1138",
+    "libelle": "Autres réserves réglementées",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1181",
+    "libelle": "Réserves facultatives",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1188",
+    "libelle": "Réserves diverses",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1291",
+    "libelle": "Perte nette à reporter",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1292",
+    "libelle": "Perte - Amortissements réputés différés",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1301",
+    "libelle": "Résultat en instance d'affectation : Bénéfice",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1309",
+    "libelle": "Résultat en instance d'affectation : Perte",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1321",
+    "libelle": "Marge brute sur marchandises",
+    "classe": 1,
+    "nature": "indicateur"
+  },
+  {
+    "code": "1322",
+    "libelle": "Marge brute sur matières",
+    "classe": 1,
+    "nature": "indicateur"
+  },
+  {
+    "code": "1411",
+    "libelle": "État",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1412",
+    "libelle": "Régions",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1413",
+    "libelle": "Départements",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1414",
+    "libelle": "Communes et collectivités publiques décentralisées",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1415",
+    "libelle": "Entreprises publiques ou mixtes",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1416",
+    "libelle": "Entreprises et organismes privés",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1417",
+    "libelle": "Organismes internationaux",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1418",
+    "libelle": "Autres",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1531",
+    "libelle": "Fonds National",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1532",
+    "libelle": "Prélèvement pour le Budget",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1551",
+    "libelle": "Reconstitution des gisements miniers et pétroliers",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1561",
+    "libelle": "Hausse de prix",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1562",
+    "libelle": "Fluctuation des cours",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1611",
+    "libelle": "Emprunts obligataires ordinaires",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1612",
+    "libelle": "Emprunts obligataires convertibles",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1618",
+    "libelle": "Autres emprunts obligataires",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1651",
+    "libelle": "Dépôts",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1652",
+    "libelle": "Cautionnements",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1661",
+    "libelle": "Sur emprunts obligataires ²",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1662",
+    "libelle": "Sur emprunts et dettes auprès des établissements de crédit",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1663",
+    "libelle": "Sur avances reçues de l'État",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1664",
+    "libelle": "Sur avances reçues et comptes courants bloqués",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1665",
+    "libelle": "Sur dépôts et cautionnements reçus",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1667",
+    "libelle": "Sur avances assorties de conditions particulières",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1668",
+    "libelle": "Sur autres emprunts et dettes",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1671",
+    "libelle": "Avances bloquées pour augmentation du capital",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1672",
+    "libelle": "Avances conditionnées par l'État",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1673",
+    "libelle": "Avances conditionnées par les autres organismes africains",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1674",
+    "libelle": "Avances conditionnées par les organismes internationaux",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1676",
+    "libelle": "Droits du concédant exigibles en nature",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1681",
+    "libelle": "Rentes viagères capitalisées",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1682",
+    "libelle": "Billets de fonds",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1683",
+    "libelle": "Dettes consécutives à des titres empruntés",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1684",
+    "libelle": "Dettes du concédant exigibles en nature",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1685",
+    "libelle": "Emprunts participatifs",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1686",
+    "libelle": "Participation des travailleurs aux bénéfices",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1762",
+    "libelle": "Sur emprunts équivalents de crédit – bail immobilier",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1763",
+    "libelle": "Sur emprunts équivalents de crédit – bail mobilier",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1768",
+    "libelle": "Sur emprunts équivalents d’autres contrats",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1811",
+    "libelle": "Dettes liées à des participations (groupe)",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1812",
+    "libelle": "Dettes liées à des participations (hors groupe)",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1971",
+    "libelle": "Provisions pour grosses réparations",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1981",
+    "libelle": "Provisions pour amendes et pénalités",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1982",
+    "libelle": "Provisions pour renouvellement des immobilisations (entreprises concessionnaires)",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1983",
+    "libelle": "Provisions de propre assureur",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "1988",
+    "libelle": "Autres provisions financières pour risques et charges COMPTES D’ACTIF IMMOBILISÉ CLASSE 2",
+    "classe": 1,
+    "nature": "passif"
+  },
+  {
+    "code": "2011",
+    "libelle": "Frais de constitution",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2012",
+    "libelle": "Frais de prospection",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2013",
+    "libelle": "Frais de publicité et de lancement",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2014",
+    "libelle": "Frais de fonctionnement antérieurs au démarrage",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2015",
+    "libelle": "Frais de modification du capital (fusions, scissions, transformations)",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2016",
+    "libelle": "Frais d'entrée à la Bourse",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2017",
+    "libelle": "Frais de restructuration",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2018",
+    "libelle": "Frais divers d'établissement",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2021",
+    "libelle": "Charges différées",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2022",
+    "libelle": "Frais d'acquisition d'immobilisations",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2026",
+    "libelle": "Frais d'émission des emprunts",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2028",
+    "libelle": "Charges à étaler",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2061",
+    "libelle": "Obligations ordinaires",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2062",
+    "libelle": "Obligations convertibles",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2068",
+    "libelle": "Autres emprunts obligataires",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2191",
+    "libelle": "Frais de recherche et de développement",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2193",
+    "libelle": "Logiciels",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2198",
+    "libelle": "Autres droits et valeurs incorporels",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2211",
+    "libelle": "Terrains d'exploitation agricole",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2212",
+    "libelle": "Terrains d'exploitation forestière",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2218",
+    "libelle": "Autres terrains",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2221",
+    "libelle": "Terrains à bâtir",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2228",
+    "libelle": "Autres terrains nus",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2231",
+    "libelle": "Pour bâtiments industriels et agricoles",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2232",
+    "libelle": "Pour bâtiments administratifs et commerciaux",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2234",
+    "libelle": "Pour bâtiments affectés aux autres opérations professionnelles",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2235",
+    "libelle": "Pour bâtiments affectés aux autres opérations non professionnelles",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2238",
+    "libelle": "Autres terrains bâtis",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2241",
+    "libelle": "Plantation d'arbres et d'arbustes",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2248",
+    "libelle": "Autres travaux",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2251",
+    "libelle": "Carrières",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2261",
+    "libelle": "Parkings",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2281",
+    "libelle": "Terrains des immeubles de rapport",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2285",
+    "libelle": "Terrains des logements affectés au personnel",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2288",
+    "libelle": "Autres terrains",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2291",
+    "libelle": "Terrains agricoles et forestiers",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2292",
+    "libelle": "Terrains nus",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2295",
+    "libelle": "Terrains de gisement",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2298",
+    "libelle": "Autres terrains",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2311",
+    "libelle": "Bâtiments industriels",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2312",
+    "libelle": "Bâtiments agricoles",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2313",
+    "libelle": "Bâtiments administratifs et commerciaux",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2314",
+    "libelle": "Bâtiments affectés au logement du personnel",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2315",
+    "libelle": "Immeubles de rapport",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2321",
+    "libelle": "Bâtiments industriels",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2322",
+    "libelle": "Bâtiments agricoles",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2323",
+    "libelle": "Bâtiments administratifs et commerciaux",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2324",
+    "libelle": "Bâtiments affectés au logement du personnel",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2325",
+    "libelle": "Immeubles de rapport",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2331",
+    "libelle": "Voies de terre",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2332",
+    "libelle": "Voies de fer",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2333",
+    "libelle": "Voies d’eau",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2334",
+    "libelle": "Barrages, Digues",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2335",
+    "libelle": "Pistes d’aérodrome",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2338",
+    "libelle": "Autres",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2341",
+    "libelle": "Installations complexes spécialisées sur sol propre",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2342",
+    "libelle": "Installations complexes spécialisées sur sol d’autrui",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2343",
+    "libelle": "Installations à caractère spécifique sur sol propre",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2344",
+    "libelle": "Installations à caractère spécifique sur sol d’autrui",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2351",
+    "libelle": "Installations générales",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2358",
+    "libelle": "Autres",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2411",
+    "libelle": "Matériel industriel",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2412",
+    "libelle": "Outillage industriel",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2413",
+    "libelle": "Matériel commercial",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2414",
+    "libelle": "Outillage commercial",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2421",
+    "libelle": "Matériel agricole",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2422",
+    "libelle": "Outillage agricole",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2441",
+    "libelle": "Matériel de bureau",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2442",
+    "libelle": "Matériel informatique",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2443",
+    "libelle": "Matériel bureautique",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2444",
+    "libelle": "Mobilier de bureau",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2446",
+    "libelle": "Matériel et mobilier des immeubles de rapport",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2447",
+    "libelle": "Matériel et mobilier des logements du personnel",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2451",
+    "libelle": "Matériel automobile",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2452",
+    "libelle": "Matériel ferroviaire",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2453",
+    "libelle": "Matériel fluvial, lagunaire",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2454",
+    "libelle": "Matériel naval",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2455",
+    "libelle": "Matériel aérien",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2456",
+    "libelle": "Matériel hippomobile",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2458",
+    "libelle": "Autres (vélo, mobylette, moto)",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2461",
+    "libelle": "Cheptel, animaux de trait",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2462",
+    "libelle": "Cheptel, animaux reproducteurs",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2463",
+    "libelle": "Animaux de garde",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2465",
+    "libelle": "Plantations agricoles",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2468",
+    "libelle": "Autres",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2481",
+    "libelle": "Collections et œuvres d’art",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2491",
+    "libelle": "Matériel et outillage industriel et commercial",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2492",
+    "libelle": "Matériel et outillage agricole",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2493",
+    "libelle": "Matériel d’emballage récupérable et identifiable",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2494",
+    "libelle": "Matériel et mobilier de bureau",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2495",
+    "libelle": "Matériel de transport",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2496",
+    "libelle": "Immobilisations animales et agricoles",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2497",
+    "libelle": "Agencements et aménagements du matériel",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2498",
+    "libelle": "Autres matériels",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2711",
+    "libelle": "Prêts participatifs",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2712",
+    "libelle": "Prêts aux associés",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2713",
+    "libelle": "Billets de fonds",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2714",
+    "libelle": "Titres prêtés",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2721",
+    "libelle": "Prêts immobiliers",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2722",
+    "libelle": "Prêts mobiliers et d’installation",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2728",
+    "libelle": "Autres prêts (frais d’études…)",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2731",
+    "libelle": "Retenues de garantie",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2733",
+    "libelle": "Fonds réglementé",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2738",
+    "libelle": "Autres",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2741",
+    "libelle": "Titres immobilisés de l’activité de portefeuille (T.I.A.P.)",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2742",
+    "libelle": "Titres participatifs",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2743",
+    "libelle": "Certificats d’investissement",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2744",
+    "libelle": "Parts de fonds commun de placement (F.C.P.)",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2748",
+    "libelle": "Autres titres immobilisés",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2751",
+    "libelle": "Dépôts pour loyers d’avance",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2752",
+    "libelle": "Dépôts pour l’électricité",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2753",
+    "libelle": "Dépôts pour l’eau",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2754",
+    "libelle": "Dépôts pour le gaz",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2755",
+    "libelle": "Dépôts pour le téléphone, le télex, la télécopie",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2756",
+    "libelle": "Cautionnements sur marchés publics",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2757",
+    "libelle": "Cautionnements sur autres opérations",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2758",
+    "libelle": "Autres dépôts et cautionnements",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2761",
+    "libelle": "Prêts et créances non commerciales",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2762",
+    "libelle": "Prêts au personnel --- ---",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2763",
+    "libelle": "Créances sur l'Etat",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2764",
+    "libelle": "Titres immobilisés",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2765",
+    "libelle": "Dépôts et cautionnements versés",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2767",
+    "libelle": "Créances rattachées à des participations",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2768",
+    "libelle": "Immobilisations financières diverses",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2771",
+    "libelle": "Créances rattachées à des participations (groupe)",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2772",
+    "libelle": "Créances rattachées à des participations (hors groupe)",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2773",
+    "libelle": "Créances rattachées à des sociétés en participation",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2774",
+    "libelle": "Avances à des Groupements d'intérêt économique (G.I.E.)",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2781",
+    "libelle": "Créances diverses groupe",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2782",
+    "libelle": "Créances divers hors groupe",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2785",
+    "libelle": "Or et métaux précieux ()",
+    "classe": 2,
+    "nature": "actif"
+  },
+  {
+    "code": "2811",
+    "libelle": "Amortissements des frais de recherche et de développement",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2812",
+    "libelle": "Amortissements des brevets, licences, concessions et droits similaires",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2813",
+    "libelle": "Amortissements des logiciels",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2814",
+    "libelle": "Amortissements des marques",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2815",
+    "libelle": "Amortissements du fonds commercial",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2816",
+    "libelle": "Amortissements du droit au bail",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2817",
+    "libelle": "Amortissements des investissements de création",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2818",
+    "libelle": "Amortissements des autres droits et valeurs incorporels",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2821",
+    "libelle": "Amortissements des terrains agricoles et forestiers",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2824",
+    "libelle": "Amortissements des travaux de mise en valeur des terrains",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2825",
+    "libelle": "Amortissements des terrains de gisement",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2831",
+    "libelle": "Amortissements des bâtiments industriels, agricoles, administratifs et commerciaux sur sol propre",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2832",
+    "libelle": "Amortissements des bâtiments industriels, agricoles, administratifs et commerciaux sur sol d'autrui",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2833",
+    "libelle": "Amortissements des ouvrages d'infrastructure",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2834",
+    "libelle": "Amortissements des installations techniques",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2835",
+    "libelle": "Amortissements des aménagements de bureaux",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2837",
+    "libelle": "Amortissements des bâtiments industriels, agricoles et commerciaux mis en concession",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2838",
+    "libelle": "Amortissements des autres installations et agencements",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2841",
+    "libelle": "Amortissements du matériel et outillage industriel et commercial",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2842",
+    "libelle": "Amortissements du matériel et outillage agricole",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2843",
+    "libelle": "Amortissements du matériel d'emballage récupérable et identifiable",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2844",
+    "libelle": "Amortissements du matériel et mobilier",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2845",
+    "libelle": "Amortissements du matériel de transport",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2846",
+    "libelle": "Amortissements des immobilisations animales et agricoles",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2847",
+    "libelle": "Amortissements des agencements et aménagements du matériel",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2848",
+    "libelle": "Amortissements des autres matériels",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2912",
+    "libelle": "Provisions pour dépréciation des brevets, licences, concessions et droits similaires",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2913",
+    "libelle": "Provisions pour dépréciation des logiciels",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2914",
+    "libelle": "Provisions pour dépréciation des marques",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2915",
+    "libelle": "Provisions pour dépréciation du fonds commercial",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2916",
+    "libelle": "Provisions pour dépréciation du droit au bail",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2917",
+    "libelle": "Provisions pour dépréciation des investissements de création",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2918",
+    "libelle": "Provisions pour dépréciation des autres droits et valeurs incorporels",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2919",
+    "libelle": "Provisions pour dépréciation des immobilisations incorporelles en cours",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2921",
+    "libelle": "Provisions pour dépréciation des terrains agricoles et forestiers",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2922",
+    "libelle": "Provisions pour dépréciation des terrains nus",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2923",
+    "libelle": "Provisions pour dépréciation des terrains bâtis",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2924",
+    "libelle": "Provisions pour dépréciation des travaux de mise en valeur des terrains",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2925",
+    "libelle": "Provisions pour dépréciation des terrains de gisement",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2926",
+    "libelle": "Provisions pour dépréciation des terrains aménagés",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2927",
+    "libelle": "Provisions pour dépréciation des terrains mis en concession",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2928",
+    "libelle": "Provisions pour dépréciation des autres terrains",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2929",
+    "libelle": "Provisions pour dépréciation des aménagements de terrains en cours",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2931",
+    "libelle": "Provisions pour dépréciation des bâtiments industriels, agricoles, administratifs et commerciaux sur sol propre",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2932",
+    "libelle": "Provisions pour dépréciation des bâtiments industriels, agricoles, administratifs et commerciaux sur sol d'autrui",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2933",
+    "libelle": "Provisions pour dépréciation des ouvrages d'infrastructures",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2934",
+    "libelle": "Provisions pour dépréciation des installations techniques",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2935",
+    "libelle": "Provisions pour dépréciation des aménagements de bureaux",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2937",
+    "libelle": "Provisions pour dépréciation des bâtiments industriels, agricoles et commerciaux mis en concession",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2938",
+    "libelle": "Provisions pour dépréciation des autres installations et agencements",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2939",
+    "libelle": "Provisions pour dépréciation des bâtiments et installations en cours",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2941",
+    "libelle": "Provisions pour dépréciation du matériel et outillage industriel et commercial",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2942",
+    "libelle": "Provisions pour dépréciation du matériel et outillage agricole",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2943",
+    "libelle": "Provisions pour dépréciation du matériel d'emballage récupérable et identifiable",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2944",
+    "libelle": "Provisions pour dépréciation du matériel et mobilier",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2945",
+    "libelle": "Provisions pour dépréciation du matériel de transport",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2946",
+    "libelle": "Provisions pour dépréciation des immobilisations animales et agricoles",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2947",
+    "libelle": "Provisions pour dépréciation des agencements et aménagements du matériel",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2948",
+    "libelle": "Provisions pour dépréciation des autres matériels",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2949",
+    "libelle": "Provisions pour dépréciation de matériel en cours",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2951",
+    "libelle": "Provisions pour dépréciation des avances et acomptes versés sur immobilisations incorporelles",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2952",
+    "libelle": "Provisions pour dépréciation des avances et acomptes versés sur immobilisations corporelles",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2961",
+    "libelle": "Provisions pour dépréciation des titres de participation dans des sociétés sous contrôle exclusif",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2962",
+    "libelle": "Provisions pour dépréciation des titres de participation dans les sociétés sous contrôle conjoint",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2963",
+    "libelle": "Provisions pour dépréciation des titres de participation dans les sociétés conférant une influence notable",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2965",
+    "libelle": "Provisions pour dépréciation des participations dans des organismes professionnels",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2966",
+    "libelle": "Provisions pour dépréciation des parts dans des GIE",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2968",
+    "libelle": "Provisions pour dépréciation des autres titres de participation",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2971",
+    "libelle": "Provisions pour dépréciation des prêts et créances non commerciales",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2972",
+    "libelle": "Provisions pour dépréciation des prêts au personnel",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2973",
+    "libelle": "Provisions pour dépréciation des créances sur l'Etat",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2974",
+    "libelle": "Provisions pour dépréciation des titres immobilisés",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2975",
+    "libelle": "Provisions pour dépréciation des dépôts et cautionnements versés",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2977",
+    "libelle": "Provisions pour dépréciation des créances rattachées à des participations et avances à des GIE",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "2978",
+    "libelle": "Provisions pour dépréciation des créances financières diverses COMPTES DE STOCKS CLASSE 3",
+    "classe": 2,
+    "nature": "amortissement"
+  },
+  {
+    "code": "3111",
+    "libelle": "Marchandises A1",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3112",
+    "libelle": "Marchandises A2",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3121",
+    "libelle": "Marchandises B1",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3122",
+    "libelle": "Marchandises B2",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3351",
+    "libelle": "Emballages perdus",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3352",
+    "libelle": "Emballages récupérables non identifiables",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3353",
+    "libelle": "Emballages à usage mixte",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3358",
+    "libelle": "Autres emballages",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3411",
+    "libelle": "Produits en cours P1",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3412",
+    "libelle": "Produits en cours P2",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3421",
+    "libelle": "Travaux en cours T1",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3422",
+    "libelle": "Travaux en cours T2",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3431",
+    "libelle": "Produits intermédiaires A",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3432",
+    "libelle": "Produits intermédiaires B",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3441",
+    "libelle": "Produits résiduels A",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3442",
+    "libelle": "Produits résiduels B",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3511",
+    "libelle": "Études en cours E1",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3512",
+    "libelle": "Études en cours E2",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3521",
+    "libelle": "Prestations de services S1",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3522",
+    "libelle": "Prestations de services S2",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3711",
+    "libelle": "Produits intermédiaires A",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3712",
+    "libelle": "Produits intermédiaires B",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3721",
+    "libelle": "Déchets",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3722",
+    "libelle": "Rebuts",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3723",
+    "libelle": "Matières de Récupération",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3871",
+    "libelle": "Stock en consignation",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "3872",
+    "libelle": "Stock en dépôt",
+    "classe": 3,
+    "nature": "stock"
+  },
+  {
+    "code": "4011",
+    "libelle": "Fournisseurs",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4012",
+    "libelle": "Fournisseurs Groupe",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4017",
+    "libelle": "Fournisseurs sous-traitants Fournisseur, retenues de garantie",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4021",
+    "libelle": "Fournisseurs, Effets à payer",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4022",
+    "libelle": "Fournisseurs - Groupe, Effets à payer",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4023",
+    "libelle": "Fournisseurs sous-traitants, Effets à payer",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4041",
+    "libelle": "Fournisseurs d'investissements — immobilisations incorporelles",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4042",
+    "libelle": "Fournisseurs d'investissements — immobilisations corporelles",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4081",
+    "libelle": "Fournisseurs",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4082",
+    "libelle": "Fournisseurs - Groupe",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4083",
+    "libelle": "Fournisseurs sous-traitants",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4086",
+    "libelle": "Fournisseurs, intérêts courus",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4091",
+    "libelle": "Fournisseurs avances et acomptes versés",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4092",
+    "libelle": "Fournisseurs - Groupe avances et acomptes versés",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4093",
+    "libelle": "Fournisseurs sous-traitants avances et acomptes versés",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4094",
+    "libelle": "Fournisseurs créances pour emballages et matériels à rendre",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4098",
+    "libelle": "Rabais, Remises, Ristournes et autres avoirs à obtenir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4111",
+    "libelle": "Clients",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4112",
+    "libelle": "Clients - Groupe",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4114",
+    "libelle": "Clients, État et Collectivités publiques",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4117",
+    "libelle": "Clients, organismes internationaux Client, retenues de garantie",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4118",
+    "libelle": "Clients, dégrèvement de Taxes sur la Valeur Ajoutée (T.V.A.)",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4121",
+    "libelle": "Clients, Effets à recevoir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4122",
+    "libelle": "Clients - Groupe, Effets à recevoir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4124",
+    "libelle": "État et Collectivités publiques, Effets à recevoir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4125",
+    "libelle": "Organismes Internationaux, Effets à recevoir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4141",
+    "libelle": "Créances en compte",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4142",
+    "libelle": "Effets à recevoir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4161",
+    "libelle": "Créances litigieuses",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4162",
+    "libelle": "Créances douteuses",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4181",
+    "libelle": "Clients, factures à établir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4186",
+    "libelle": "Clients, intérêts courus",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4191",
+    "libelle": "Clients, avances et acomptes reçus",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4192",
+    "libelle": "Clients - Groupe, avances et acomptes reçus",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4194",
+    "libelle": "Clients, dettes pour emballages et matériels consignés",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4198",
+    "libelle": "Rabais, Remises, Ristournes et autres avoirs à accorder",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4211",
+    "libelle": "Personnel, avances",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4212",
+    "libelle": "Personnel, acomptes",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4213",
+    "libelle": "Frais avancés et fournitures au personnel",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4231",
+    "libelle": "Personnel, oppositions",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4232",
+    "libelle": "Personnel, saisies-arrêts",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4233",
+    "libelle": "Personnel, avis à tiers détenteur",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4241",
+    "libelle": "Assistance médicale",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4242",
+    "libelle": "Allocations familiales",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4245",
+    "libelle": "Organismes sociaux rattachés à l'entreprise",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4248",
+    "libelle": "Autres oeuvres sociales internes",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4251",
+    "libelle": "Délégués du personnel",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4252",
+    "libelle": "Syndicats et Comités d'entreprises, d'Établissement",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4258",
+    "libelle": "Autres représentants du personnel",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4281",
+    "libelle": "Dettes provisionnées pour congés à payer",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4286",
+    "libelle": "Autres Charges à payer",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4287",
+    "libelle": "Produits à recevoir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4311",
+    "libelle": "Prestations familiales",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4312",
+    "libelle": "Accidents de travail",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4313",
+    "libelle": "Caisse de retraite obligatoire",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4314",
+    "libelle": "Caisse de retraite facultative",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4318",
+    "libelle": "Autres cotisations sociales",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4331",
+    "libelle": "Mutuelle",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4334",
+    "libelle": "T.V.A. facturée sur production livrée à soi-même",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4335",
+    "libelle": "T.V.A. sur factures à établir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4381",
+    "libelle": "Charges sociales sur gratifications à payer",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4382",
+    "libelle": "Charges sociales sur congés à payer",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4386",
+    "libelle": "Autres charges à payer",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4387",
+    "libelle": "Produits à recevoir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4421",
+    "libelle": "Impôts et taxes d'Etat",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4422",
+    "libelle": "Impôts et taxes pour les collectivités publiques",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4423",
+    "libelle": "Impôts et taxes recouvrables sur des obligataires",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4424",
+    "libelle": "Impôts et taxes recouvrables sur des associés",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4426",
+    "libelle": "Droits de douane",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4428",
+    "libelle": "Autres impôts et taxes",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4431",
+    "libelle": "T.V.A. facturée sur ventes",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4432",
+    "libelle": "T.V.A. facturée sur prestations de services",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4433",
+    "libelle": "T.V.A. facturée sur travaux",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4441",
+    "libelle": "État, T.V.A. due",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4449",
+    "libelle": "État, crédit de T.V.A. à reporter",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4451",
+    "libelle": "T.V.A. récupérable sur immobilisations",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4452",
+    "libelle": "T.V.A. récupérable sur achats",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4453",
+    "libelle": "T.V.A. récupérable sur transport",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4454",
+    "libelle": "T.V.A. récupérable sur services extérieurs et autres charges",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4455",
+    "libelle": "T.V.A. récupérable sur factures non parvenues",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4456",
+    "libelle": "T.V.A. transférée par d'autres entreprises",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4471",
+    "libelle": "Impôt Général sur le revenu",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4472",
+    "libelle": "Impôts sur salaires",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4473",
+    "libelle": "Contribution nationale",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4474",
+    "libelle": "Contribution nationale de solidarité",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4478",
+    "libelle": "Autres impôts et contributions",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4486",
+    "libelle": "Charges à payer",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4487",
+    "libelle": "Produits à recevoir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4491",
+    "libelle": "État, obligations cautionnées",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4492",
+    "libelle": "État, avances et acomptes versés sur impôts",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4493",
+    "libelle": "État, fonds de dotation à recevoir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4494",
+    "libelle": "État, subventions d'équipement à recevoir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4495",
+    "libelle": "État, subventions d'exploitation à recevoir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4496",
+    "libelle": "État, subventions d'équilibre à recevoir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4499",
+    "libelle": "État, fonds réglementé provisionné",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4581",
+    "libelle": "Organismes internationaux, fonds de dotation à recevoir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4582",
+    "libelle": "Organismes internationaux, subventions à recevoir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4611",
+    "libelle": "Associés apports en nature",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4612",
+    "libelle": "Associés apports en numéraire",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4613",
+    "libelle": "Actionnaires, capital souscrit appelé non versé",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4614",
+    "libelle": "Associés, capital appelé non versé",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4615",
+    "libelle": "Associés, versements reçus sur augmentation de capital",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4616",
+    "libelle": "Associés, versements anticipés",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4617",
+    "libelle": "Actionnaires défaillants",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4618",
+    "libelle": "Associés, autres apports",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4619",
+    "libelle": "Associés, capital à rembourser",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4621",
+    "libelle": "Principal",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4626",
+    "libelle": "Intérêts courus",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4711",
+    "libelle": "Débiteurs divers",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4712",
+    "libelle": "Créditeurs divers",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4726",
+    "libelle": "Titres de participation",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4727",
+    "libelle": "Titres immobilisés",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4728",
+    "libelle": "Titres de placement",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4746",
+    "libelle": "Charges",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4747",
+    "libelle": "Produits",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4781",
+    "libelle": "Diminution des créances",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4782",
+    "libelle": "Augmentation des dettes",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4788",
+    "libelle": "Différences compensées par couverture de change",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4791",
+    "libelle": "Augmentation des créances",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4792",
+    "libelle": "Diminution des dettes",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4798",
+    "libelle": "Différences compensées par couverture de change",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4811",
+    "libelle": "Immobilisations incorporelles",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4812",
+    "libelle": "Immobilisations corporelles",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4817",
+    "libelle": "Retenues de garantie",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4818",
+    "libelle": "Factures non parvenues",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4851",
+    "libelle": "En compte",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4852",
+    "libelle": "Effets à recevoir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4857",
+    "libelle": "Retenues de garantie",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4858",
+    "libelle": "Factures à établir",
+    "classe": 4,
+    "nature": "tiers"
+  },
+  {
+    "code": "4911",
+    "libelle": "Créances litigieuses",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "4912",
+    "libelle": "Créances douteuses",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "4962",
+    "libelle": "Associés, comptes courants",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "4963",
+    "libelle": "Associés, opérations faites en commun",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "4966",
+    "libelle": "Groupe, comptes courants",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "4981",
+    "libelle": "Créances sur cessions d'immobilisations",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "4982",
+    "libelle": "Créances sur cessions de titres de placement",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "4983",
+    "libelle": "Autres créances H.A.O",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "4991",
+    "libelle": "Sur opérations d'exploitation",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "4998",
+    "libelle": "Sur opérations H.A.O. COMPTES DE TRÉSORERIE CLASSE 5",
+    "classe": 4,
+    "nature": "amortissement"
+  },
+  {
+    "code": "5011",
+    "libelle": "Titres du Trésor à court terme",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5012",
+    "libelle": "Titres d'organismes financiers",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5013",
+    "libelle": "Bons de caisse à court terme",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5021",
+    "libelle": "Actions propres",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5022",
+    "libelle": "Actions cotées",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5023",
+    "libelle": "Actions non cotées",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5024",
+    "libelle": "Actions démembrées (certificats d'investissement ; droits de vote)",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5025",
+    "libelle": "Autres titres conférant un droit de propriété",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5031",
+    "libelle": "Obligations émises par la société et rachetées par elle",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5032",
+    "libelle": "Obligations cotées",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5033",
+    "libelle": "Obligations non cotées",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5035",
+    "libelle": "Autres titres conférant un droit de créance",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5042",
+    "libelle": "Bons de souscription d'actions",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5043",
+    "libelle": "Bons de souscription d'obligations",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5061",
+    "libelle": "Titres du Trésor et bons de caisse à court terme",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5062",
+    "libelle": "Actions",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5063",
+    "libelle": "Obligations",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5181",
+    "libelle": "Warrants",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5182",
+    "libelle": "Billets de fonds",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5185",
+    "libelle": "Chèques de voyage",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5186",
+    "libelle": "Coupons échus",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5187",
+    "libelle": "Intérêts échus des obligations",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5211",
+    "libelle": "Banque locale — compte principal",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5212",
+    "libelle": "Banque locale — second compte",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5711",
+    "libelle": "En unités monétaires légales",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5712",
+    "libelle": "En devises",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5721",
+    "libelle": "En unités monétaires légales",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5722",
+    "libelle": "En devises",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5731",
+    "libelle": "En unités monétaires légales",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "5732",
+    "libelle": "En devises",
+    "classe": 5,
+    "nature": "tresorerie"
+  },
+  {
+    "code": "6011",
+    "libelle": "Achats de marchandises — dans la région",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6012",
+    "libelle": "Achats de marchandises — hors région",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6013",
+    "libelle": "Achats de marchandises — aux entreprises du groupe dans la région",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6014",
+    "libelle": "Achats de marchandises — aux entreprises du groupe hors région",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6019",
+    "libelle": "Rabais, Remises et Ristournes obtenus (non ventilés)",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6021",
+    "libelle": "Achats de matières premières et fournitures liées — dans la région",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6022",
+    "libelle": "Achats de matières premières et fournitures liées — hors région",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6023",
+    "libelle": "Achats de matières premières et fournitures liées — aux entreprises du groupe dans la région",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6024",
+    "libelle": "Achats de matières premières et fournitures liées — aux entreprises du groupe hors région",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6029",
+    "libelle": "Rabais, Remises et Ristournes obtenus (non ventilés)",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6031",
+    "libelle": "Variations des stocks de marchandises",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6032",
+    "libelle": "Variations des stocks de matières premières et fournitures liées",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6033",
+    "libelle": "Variations des stocks d'autres approvisionnements",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6041",
+    "libelle": "Matières consommables",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6042",
+    "libelle": "Matières combustibles",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6043",
+    "libelle": "Produits d'entretien",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6044",
+    "libelle": "Fournitures d'atelier et d'usine",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6046",
+    "libelle": "Fournitures de magasin",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6047",
+    "libelle": "Fournitures de bureau",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6049",
+    "libelle": "Rabais, Remises et Ristournes obtenus (non ventilés)",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6051",
+    "libelle": "Fournitures non stockables -Eau",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6052",
+    "libelle": "Fournitures non stockables - Electricité",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6053",
+    "libelle": "Fournitures non stockables – Autres énergies",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6054",
+    "libelle": "Fournitures d'entretien non stockables",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6055",
+    "libelle": "Fournitures de bureau non stockables",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6056",
+    "libelle": "Achats de petit matériel et outillage",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6057",
+    "libelle": "Achats d'études et prestations de services",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6058",
+    "libelle": "Achats de travaux, matériels et équipements",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6059",
+    "libelle": "Rabais, Remises et Ristournes obtenus (non ventilés)",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6081",
+    "libelle": "Emballages perdus",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6082",
+    "libelle": "Emballages récupérables non identifiables",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6083",
+    "libelle": "Emballages à usage mixte",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6089",
+    "libelle": "Rabais, Remises et Ristournes obtenus (non ventilés)",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6181",
+    "libelle": "Voyages et déplacements",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6182",
+    "libelle": "Transports entre établissements ou chantiers",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6183",
+    "libelle": "Transports administratifs",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6221",
+    "libelle": "Locations de terrains",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6222",
+    "libelle": "Locations de bâtiments",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6223",
+    "libelle": "Locations de matériels et outillages",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6224",
+    "libelle": "Malis sur emballages",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6225",
+    "libelle": "Locations d'emballages",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6228",
+    "libelle": "Locations et charges locatives diverses",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6232",
+    "libelle": "Crédit-bail immobilier",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6233",
+    "libelle": "Crédit-bail mobilier",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6235",
+    "libelle": "Contrats assimilés",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6241",
+    "libelle": "Entretien et réparations des biens immobiliers",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6242",
+    "libelle": "Entretien et réparations des biens mobiliers",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6243",
+    "libelle": "Maintenance",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6248",
+    "libelle": "Autres entretiens et réparations",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6251",
+    "libelle": "Assurances multirisques",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6252",
+    "libelle": "Assurances matériel de transport",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6253",
+    "libelle": "Assurances risques d'exploitation",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6254",
+    "libelle": "Assurances responsabilité du producteur",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6255",
+    "libelle": "Assurances insolvabilité clients",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6256",
+    "libelle": "Assurances transport sur achats",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6257",
+    "libelle": "Assurances transport sur ventes",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6258",
+    "libelle": "Autres primes d'assurances",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6261",
+    "libelle": "Études et recherches",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6265",
+    "libelle": "Documentation générale",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6266",
+    "libelle": "Documentation technique",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6271",
+    "libelle": "Annonces, insertions",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6272",
+    "libelle": "Catalogues, imprimés publicitaires",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6273",
+    "libelle": "Échantillons",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6274",
+    "libelle": "Foires et expositions",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6275",
+    "libelle": "Publications",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6276",
+    "libelle": "Cadeaux à la clientèle",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6277",
+    "libelle": "Frais de colloques, séminaires, conférences",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6278",
+    "libelle": "Autres charges de publicité et relations publiques",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6281",
+    "libelle": "Frais de téléphone",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6282",
+    "libelle": "Frais de télex",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6283",
+    "libelle": "Frais de télécopie",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6288",
+    "libelle": "Autres frais de télécommunications",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6311",
+    "libelle": "Frais sur titres (achat, vente, garde)",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6312",
+    "libelle": "Frais sur effets",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6313",
+    "libelle": "Location de coffres",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6315",
+    "libelle": "Commissions sur cartes de crédit",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6316",
+    "libelle": "Frais d'émission d'emprunts",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6318",
+    "libelle": "Autres frais bancaires",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6321",
+    "libelle": "Commissions et courtages sur achats",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6322",
+    "libelle": "Commissions et courtages sur ventes",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6323",
+    "libelle": "Rémunérations des transitaires",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6324",
+    "libelle": "Honoraires",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6325",
+    "libelle": "Frais d'actes et de contentieux",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6328",
+    "libelle": "Divers frais",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6342",
+    "libelle": "Redevances pour brevets, licences, concessions et droits similaires",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6343",
+    "libelle": "Redevances pour logiciels",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6344",
+    "libelle": "Redevances pour marques",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6351",
+    "libelle": "Cotisations",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6358",
+    "libelle": "Concours divers",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6371",
+    "libelle": "Personnel intérimaire",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6372",
+    "libelle": "Personnel détaché ou prêté à l'entreprise",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6381",
+    "libelle": "Frais de recrutement du personnel",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6382",
+    "libelle": "Frais de déménagement",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6383",
+    "libelle": "Réceptions",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6384",
+    "libelle": "Missions",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6411",
+    "libelle": "Impôts fonciers et taxes annexes",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6412",
+    "libelle": "Patentes, licences et taxes annexes",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6413",
+    "libelle": "Taxes sur appointements et salaires",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6414",
+    "libelle": "Taxes d'apprentissage",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6415",
+    "libelle": "Formation professionnelle continue",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6418",
+    "libelle": "Autres impôts et taxes directs",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6461",
+    "libelle": "Droits de mutation",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6462",
+    "libelle": "Droits de timbre",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6463",
+    "libelle": "Taxes sur les véhicules de société",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6464",
+    "libelle": "Vignettes",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6468",
+    "libelle": "Autres droits",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6471",
+    "libelle": "Pénalités d'assiette, impôts directs",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6472",
+    "libelle": "Pénalités d'assiette, impôts indirects",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6473",
+    "libelle": "Pénalités de recouvrement, impôts directs",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6474",
+    "libelle": "Pénalités de recouvrement, impôts indirects",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6478",
+    "libelle": "Autres amendes pénales et fiscales",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6511",
+    "libelle": "Clients",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6515",
+    "libelle": "Autres débiteurs",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6521",
+    "libelle": "Quote-part transférée de bénéfices (comptabilité du gérant)",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6525",
+    "libelle": "Pertes imputées par transfert (comptabilité des associés non gérants)",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6581",
+    "libelle": "Jetons de présence et autres rémunérations d'administrateurs",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6582",
+    "libelle": "Dons",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6583",
+    "libelle": "Mécénat",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6591",
+    "libelle": "Sur risques à court terme",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6593",
+    "libelle": "Sur stocks",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6594",
+    "libelle": "Sur créances",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6598",
+    "libelle": "Autres charges provisionnées",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6611",
+    "libelle": "Appointements, salaires et commissions",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6612",
+    "libelle": "Primes et gratifications",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6613",
+    "libelle": "Congés payés",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6614",
+    "libelle": "Indemnités de préavis, de licenciement et de recherche d'embauche",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6615",
+    "libelle": "Indemnités de maladie versées aux travailleurs",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6616",
+    "libelle": "Supplément familial",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6617",
+    "libelle": "Avantages en nature",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6618",
+    "libelle": "Autres rémunérations directes",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6621",
+    "libelle": "Appointements salaires et commissions",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6622",
+    "libelle": "Primes et gratifications",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6623",
+    "libelle": "Congés payés",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6624",
+    "libelle": "Indemnités de préavis, de licenciement et de recherche d'embauche",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6625",
+    "libelle": "Indemnités de maladie versées aux travailleurs",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6626",
+    "libelle": "Supplément familial",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6627",
+    "libelle": "Avantages en nature",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6628",
+    "libelle": "Autres rémunérations directes",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6631",
+    "libelle": "Indemnités de logement",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6632",
+    "libelle": "Indemnités de représentation",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6633",
+    "libelle": "Indemnités d'expatriation",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6638",
+    "libelle": "Autres indemnités et avantages divers",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6641",
+    "libelle": "Charges sociales sur rémunération du personnel national",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6642",
+    "libelle": "Charges sociales sur rémunération du personnel non national",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6661",
+    "libelle": "Rémunération du travail de l'exploitant",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6662",
+    "libelle": "Charges sociales",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6671",
+    "libelle": "Personnel intérimaire",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6672",
+    "libelle": "Personnel détaché ou prêté à l’entreprise",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6681",
+    "libelle": "Versements aux Syndicats et Comités d'entreprise, d'établissement",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6682",
+    "libelle": "Versements aux Comités d'hygiène et de sécurité",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6683",
+    "libelle": "Versements aux autres oeuvres sociales",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6684",
+    "libelle": "Médecine du travail et pharmacie",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6711",
+    "libelle": "Emprunts obligataires",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6712",
+    "libelle": "Emprunts auprès des établissements de crédit",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6713",
+    "libelle": "Dettes liées à des participations",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6721",
+    "libelle": "Intérêts dans loyers de crédit-bail immobilier",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6722",
+    "libelle": "Intérêts dans loyers de crédit-bail mobilier",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6723",
+    "libelle": "Intérêts dans loyers des autres contrats",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6741",
+    "libelle": "Avances reçues et dépôts créditeurs",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6742",
+    "libelle": "Comptes courants bloqués",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6743",
+    "libelle": "Intérêts sur obligations cautionnées",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6744",
+    "libelle": "Intérêts sur dettes commerciales",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6745",
+    "libelle": "Intérêts bancaires et sur opérations de trésorerie et d’escompte",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6748",
+    "libelle": "Intérêts sur dettes diverses",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6781",
+    "libelle": "Sur rentes viagères",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6782",
+    "libelle": "Sur opérations financières",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6784",
+    "libelle": "Sur instruments de trésorerie",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6791",
+    "libelle": "Sur risques financiers",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6795",
+    "libelle": "Sur titres de placement",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6798",
+    "libelle": "Autres charges provisionnées financières",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6811",
+    "libelle": "Dotations aux amortissements des charges immobilisées",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6812",
+    "libelle": "Dotations aux amortissements des immobilisations incorporelles",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6813",
+    "libelle": "Dotations aux amortissements des immobilisations corporelles",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6872",
+    "libelle": "Dotations aux amortissements des primes de remboursement des obligations",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6878",
+    "libelle": "Autres dotations aux amortissements à caractère financier",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6911",
+    "libelle": "Pour risques et charges",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6912",
+    "libelle": "Pour grosses réparations",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6913",
+    "libelle": "Pour dépréciation des immobilisations incorporelles",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6914",
+    "libelle": "Pour dépréciation des immobilisations corporelles",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6971",
+    "libelle": "Pour risques et charges",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "6972",
+    "libelle": "Pour dépréciation des immobilisations financières COMPTES DE PRODUITS DES ACTIVITÉS ORDINAIRES CLASSE 7",
+    "classe": 6,
+    "nature": "charge"
+  },
+  {
+    "code": "7011",
+    "libelle": "Ventes de marchandises — dans la région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7012",
+    "libelle": "Ventes de marchandises — hors région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7013",
+    "libelle": "Ventes de marchandises — aux entreprises du groupe dans la région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7014",
+    "libelle": "Ventes de marchandises — aux entreprises du groupe hors région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7021",
+    "libelle": "Ventes de produits finis — dans la région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7022",
+    "libelle": "Ventes de produits finis — hors région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7023",
+    "libelle": "Ventes de produits finis — aux entreprises du groupe dans la région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7024",
+    "libelle": "Ventes de produits finis — aux entreprises du groupe hors région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7031",
+    "libelle": "Ventes de produits intermédiaires — dans la région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7032",
+    "libelle": "Ventes de produits intermédiaires — hors région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7033",
+    "libelle": "Ventes de produits intermédiaires — aux entreprises du groupe dans la région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7034",
+    "libelle": "Ventes de produits intermédiaires — aux entreprises du groupe hors région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7041",
+    "libelle": "Ventes de produits résiduels — dans la région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7042",
+    "libelle": "Ventes de produits résiduels — hors région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7043",
+    "libelle": "Ventes de produits résiduels — aux entreprises du groupe dans la région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7044",
+    "libelle": "Ventes de produits résiduels — aux entreprises du groupe hors région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7051",
+    "libelle": "Travaux facturés — dans la région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7052",
+    "libelle": "Travaux facturés — hors région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7053",
+    "libelle": "Travaux facturés — aux entreprises du groupe dans la région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7054",
+    "libelle": "Travaux facturés — aux entreprises du groupe hors région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7061",
+    "libelle": "Services vendus — dans la région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7062",
+    "libelle": "Services vendus — hors région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7063",
+    "libelle": "Services vendus — aux entreprises du groupe dans la région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7064",
+    "libelle": "Services vendus — aux entreprises du groupe hors région",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7071",
+    "libelle": "Ports, emballages perdus et autres frais facturés",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7072",
+    "libelle": "Commissions et courtages()",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7073",
+    "libelle": "Locations ( 2)",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7074",
+    "libelle": "Bonis sur reprises et cessions d'emballages",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7075",
+    "libelle": "Mise à disposition de personnel ( 2)",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7076",
+    "libelle": "Redevances pour brevets, logiciels, marques et droits similaires ( 2)",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7077",
+    "libelle": "Services exploités dans l'intérêt du personnel",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7078",
+    "libelle": "Autres produits accessoires",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7181",
+    "libelle": "Versées par l'État et les collectivités publiques",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7182",
+    "libelle": "Versées par les organismes internationaux",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7183",
+    "libelle": "Versées par des tiers",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7341",
+    "libelle": "Produits en cours",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7342",
+    "libelle": "Travaux en cours",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7351",
+    "libelle": "Études en cours",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7352",
+    "libelle": "Prestations de services en cours",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7371",
+    "libelle": "Produits intermédiaires",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7372",
+    "libelle": "Produits résiduels",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7521",
+    "libelle": "Quote-part transférée de pertes (comptabilité du gérant)",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7525",
+    "libelle": "Bénéfices attribués par transfert (comptabilité des associés non gérants)",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7581",
+    "libelle": "Jetons de présence et autres rémunérations d'administrateurs",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7582",
+    "libelle": "Indemnités d’assurances reçues",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7591",
+    "libelle": "Sur risques à court terme",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7593",
+    "libelle": "Sur stocks",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7594",
+    "libelle": "Sur créances",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7598",
+    "libelle": "Sur autres charges provisionnées",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7781",
+    "libelle": "Sur rentes viagères",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7782",
+    "libelle": "Sur opérations financières",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7784",
+    "libelle": "Sur instruments de trésorerie",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7791",
+    "libelle": "Sur risques financiers",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7795",
+    "libelle": "Sur titres de placement",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7798",
+    "libelle": "Autres charges provisionnées financières",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7911",
+    "libelle": "Pour risques et charges",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7912",
+    "libelle": "Pour grosses réparations",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7913",
+    "libelle": "Pour dépréciation des immobilisations incorporelles",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7914",
+    "libelle": "Pour dépréciation des immobilisations corporelles",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7971",
+    "libelle": "Pour risques et charges",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "7972",
+    "libelle": "Pour dépréciation des immobilisations financières",
+    "classe": 7,
+    "nature": "produit"
+  },
+  {
+    "code": "8911",
+    "libelle": "Activités exercées dans l'État",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "8912",
+    "libelle": "Activités exercées dans les autres États de la Région",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "8913",
+    "libelle": "Activités exercées hors Région",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "8991",
+    "libelle": "Dégrèvements",
+    "classe": 8,
+    "nature": "charge"
+  },
+  {
+    "code": "8994",
+    "libelle": "Annulations pour pertes rétroactives",
+    "classe": 8,
+    "nature": "charge"
+  }
+]

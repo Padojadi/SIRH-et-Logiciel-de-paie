@@ -1,0 +1,35 @@
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import test from "node:test";
+
+test("la base de démonstration équilibre les livres et oriente la DRH", async () => {
+  const file = `/tmp/cauris-demo-${process.pid}.sqlite`;
+  for (const suffix of ["", "-shm", "-wal"]) fs.rmSync(file + suffix, { force: true });
+  process.env.CAURIS_DB_PATH = file;
+  const { closeDb } = await import("../src/lib/db.ts");
+  const { evaluer } = await import("../src/lib/hr-store.ts");
+  const { balance, etats } = await import("../src/lib/books-store.ts");
+  const { defaultEvalRange } = await import("../src/lib/hr-store.ts");
+  const range = defaultEvalRange();
+  const evals = evaluer(range.from, range.to);
+  const byName = Object.fromEntries(evals.agents.map((agent) => [agent.nom, agent.avis]));
+  assert.equal(byName["Fatou Gueye"], "alleger");
+  assert.equal(byName["Ibrahima Sarr"], "alourdir");
+  assert.equal(byName["Pape Faye"], "assiduite");
+  assert.equal(byName["Khady Bâ"], "alleger");
+  assert.equal(byName["Mamadou Niane"], "alleger");
+  assert.equal(byName["Bineta Coly"], "equilibree");
+  const etudes = evals.unites.find((unit) => unit.code === "SET");
+  const finance = evals.unites.find((unit) => unit.code === "DFI");
+  assert.equal(etudes?.avis, "reaffecter");
+  assert.equal(finance?.avis, "recruter");
+  const year = range.to.slice(0, 4);
+  const books = balance(`${year}-01-01`, `${year}-12-31`);
+  assert.equal(books.totals.solDebit, books.totals.solCredit);
+  const report = etats(`${year}-01-01`, `${year}-12-31`);
+  assert.equal(report.bilan.totalActif, report.bilan.totalPassif);
+  assert.ok(report.ca > 0);
+  assert.ok(report.tresorerie > 0);
+  closeDb();
+  for (const suffix of ["", "-shm", "-wal"]) fs.rmSync(file + suffix, { force: true });
+});

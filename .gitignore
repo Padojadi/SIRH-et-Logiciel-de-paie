@@ -1,0 +1,8 @@
+node_modules
+.next
+out
+data/*.sqlite
+data/*.sqlite-*
+data/.secret
+*.log
+.DS_Store
