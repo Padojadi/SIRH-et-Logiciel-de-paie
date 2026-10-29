@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+.git
+data/*.sqlite
+data/*.sqlite-*
+data/.secret
+*.log
+.env
+deploy/.env

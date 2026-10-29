@@ -69,6 +69,24 @@ Les paramètres de paie d'origine sont indicatifs pour le Sénégal au 1er janvi
 
 Menu Administration, Sauvegarde, ou `GET /api/fichier?type=sauvegarde` avec une session d'administrateur. Le téléchargement force un point de contrôle WAL. Pour restaurer, arrêtez le serveur et remplacez le fichier de base. Conservez `SESSION_SECRET` : un secret différent invalide les sessions, pas les comptes.
 
+## Déploiement sur SIGRHPC.2ticglobal.com
+
+L'application Next.js sert l'interface et le serveur. La base est le fichier SQLite monté dans un volume Docker persistant. Caddy publie le nom `SIGRHPC.2ticglobal.com` et obtient un certificat qui ne couvre que ce nom.
+
+Le nom DNS pointe déjà vers `195.110.35.45`. Sur le VPS, en root, une fois le dépôt cloné :
+
+```bash
+bash deploy/install-vps.sh
+```
+
+Le script installe Docker, conserve le secret de session dans `/opt/sigrhpc/.env` et démarre les deux conteneurs. Les ports 80 et 443 doivent être libres : le certificat ne peut pas être émis s'ils sont déjà occupés.
+
+Copie sur le Mac, depuis le Mac :
+
+```bash
+git clone --branch cursor/logiciel-grh-compta-paie-bc90 https://github.com/Padojadi/SIRH-et-Logiciel-de-paie.git "/Users/Paul Do Mac Folders/Protosen_Hostinger/SIGRHPC"
+```
+
 ## Modèle
 
 Coût d'acquisition, puis redevance annuelle à partir de la deuxième année, selon le contrat. La redevance couvre la mise à jour annuelle et le support. Le montant n'est pas paramétré dans le logiciel.
