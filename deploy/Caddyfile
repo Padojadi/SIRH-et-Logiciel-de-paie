@@ -1,0 +1,5 @@
+# Certificat émis pour ce seul nom, distinct des autres sites du VPS.
+SIGRHPC.2ticglobal.com {
+	encode zstd gzip
+	reverse_proxy app:3000
+}
