@@ -38,7 +38,7 @@ function continuer(request: NextRequest) {
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  if (pathname === "/connexion") return continuer(request);
+  if (pathname === "/connexion" || pathname.startsWith("/modeles-visage/")) return continuer(request);
   const token = request.cookies.get("cauris_session")?.value;
   if (pathname === "/") {
     return publicRedirect(request, token ? "/tableau-de-bord" : "/connexion");
