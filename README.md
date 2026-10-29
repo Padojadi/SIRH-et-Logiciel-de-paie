@@ -71,15 +71,17 @@ Menu Administration, Sauvegarde, ou `GET /api/fichier?type=sauvegarde` avec une 
 
 ## Déploiement sur SIGRHPC.2ticglobal.com
 
-L'application Next.js sert l'interface et le serveur. La base est le fichier SQLite monté dans un volume Docker persistant. Caddy publie le nom `SIGRHPC.2ticglobal.com` et obtient un certificat qui ne couvre que ce nom.
+L'application Next.js sert l'interface et le serveur. Sur le VPS `195.110.35.45`, elle tourne sous PM2, nom `sigrhpc`, et n'écoute que `127.0.0.1:3020`. Nginx publie `SIGRHPC.2ticglobal.com` et reverse-proxy vers ce port. Le certificat Let's Encrypt ne couvre que `sigrhpc.2ticglobal.com`.
 
-Le nom DNS pointe déjà vers `195.110.35.45`. Sur le VPS, en root, une fois le dépôt cloné :
+La base est le fichier `/opt/sigrhpc/data/cauris.sqlite`. Le secret de session et le chemin de la base sont dans `/opt/sigrhpc/.env`, réservé à root. Le démarrage est `start.sh` :
 
 ```bash
-bash deploy/install-vps.sh
+cd /opt/sigrhpc
+pm2 start /opt/sigrhpc/start.sh --name sigrhpc --cwd /opt/sigrhpc
+pm2 save
 ```
 
-Le script installe Docker, conserve le secret de session dans `/opt/sigrhpc/.env` et démarre les deux conteneurs. Les ports 80 et 443 doivent être libres : le certificat ne peut pas être émis s'ils sont déjà occupés.
+`deploy/install-vps.sh` installe Docker et Caddy et exige les ports 80 et 443 libres. Ne pas l'exécuter sur ce VPS : nginx et les autres applications y occupent déjà ces ports.
 
 Copie sur le Mac, depuis le Mac :
 

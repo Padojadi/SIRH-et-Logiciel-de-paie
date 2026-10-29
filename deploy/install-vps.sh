@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# À lancer en root sur le VPS 195.110.35.45.
-# Installe Cauris / SIGRHPC : l'application Next.js, sa base SQLite persistante,
-# et un certificat TLS réservé au nom SIGRHPC.2ticglobal.com.
+# Installation Docker + Caddy, pour un serveur dont les ports 80 et 443 sont libres.
+# Ne pas l'exécuter sur le VPS 195.110.35.45 : nginx, certbot et PM2 y servent
+# déjà SIGRHPC.2ticglobal.com (voir le README, section Déploiement).
 set -euo pipefail
 
 DOMAIN="SIGRHPC.2ticglobal.com"
