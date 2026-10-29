@@ -30,12 +30,18 @@ export function closeDb(): void {
   cache.db = undefined;
 }
 
+function plain<T>(row: T): T {
+  if (row === null || typeof row !== "object") return row;
+  return Object.fromEntries(Object.entries(row as object)) as T;
+}
+
 export function all<T>(sql: string, params: SQLInputValue[] = []): T[] {
-  return db().prepare(sql).all(...params) as T[];
+  return (db().prepare(sql).all(...params) as T[]).map((row) => plain(row));
 }
 
 export function get<T>(sql: string, params: SQLInputValue[] = []): T | undefined {
-  return db().prepare(sql).get(...params) as T | undefined;
+  const row = db().prepare(sql).get(...params) as T | undefined;
+  return row === undefined ? undefined : plain(row);
 }
 
 export function run(sql: string, params: SQLInputValue[] = []): number {

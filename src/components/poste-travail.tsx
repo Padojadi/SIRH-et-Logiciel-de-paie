@@ -21,7 +21,9 @@ export function PosteTravail({ initial, agentId }: { initial: Etat; agentId: num
   const [tacheId, setTacheId] = useState<number | "">(initial.taches[0]?.id ?? "");
   const [active, setActive] = useState(true);
   const [local, setLocal] = useState(initial.secondes);
-  const [message, setMessage] = useState("En comptage");
+  const [message, setMessage] = useState(
+    initial.exception ? `Exception : ${initial.exception}` : initial.dansLaPlage ? "En comptage" : "Hors plage de comptage",
+  );
 
   useEffect(() => {
     let last = Date.now();
