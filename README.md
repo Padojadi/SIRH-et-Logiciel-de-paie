@@ -1,4 +1,4 @@
-# Cauris
+# 2TIC
 
 Logiciel de ressources humaines, de temps de travail, de comptabilité SYSCOHADA / SYCEBNL et de paie. Application web en français, à installer sur un serveur, utilisée par plusieurs personnes selon leur rôle.
 

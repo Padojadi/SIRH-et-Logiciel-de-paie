@@ -17,14 +17,14 @@ export default async function Connexion({ searchParams }: { searchParams: Promis
     <main className="login">
       <section className="login-side">
         <div>
-          <p className="kicker">Institut des Savanes</p>
+          <p className="kicker">{setting("organisation", "SIGRHCP")}</p>
           <h1>Le travail, le temps et les comptes au même endroit.</h1>
         </div>
         <p>Ressources humaines, horaires, comptabilité SYSCOHADA / SYCEBNL et paie. Une base, plusieurs rôles, un serveur.</p>
       </section>
       <section className="login-panel">
         <div className="login-card">
-          <h2>Connexion à Cauris</h2>
+          <h2>Connexion à 2TIC</h2>
           {erreur ? <p className="flash err">{erreur}</p> : null}
           <form action={connecter} className="grid">
             <label>Identifiant<input name="email" type="email" autoComplete="username" required /></label>

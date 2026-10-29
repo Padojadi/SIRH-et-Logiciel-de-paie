@@ -44,4 +44,4 @@ chmod 600 "${INSTALL_DIR}/.env"
 cd "${INSTALL_DIR}"
 docker compose up -d --build
 docker compose ps
-echo "Cauris répondra sur https://${DOMAIN} dès que le certificat est émis."
+echo "2TIC répondra sur https://${DOMAIN} dès que le certificat est émis."

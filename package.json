@@ -2,7 +2,7 @@
   "name": "cauris",
   "version": "1.0.0",
   "private": true,
-  "description": "Cauris — ressources humaines, temps de travail, comptabilité SYSCOHADA / SYCEBNL et paie.",
+  "description": "2TIC — ressources humaines, temps de travail, comptabilité SYSCOHADA / SYCEBNL et paie.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

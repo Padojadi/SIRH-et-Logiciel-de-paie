@@ -6,7 +6,7 @@ const display = Fraunces({ subsets: ["latin"], variable: "--font-display" });
 const sans = Source_Sans_3({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: { default: "Cauris", template: "%s · Cauris" },
+  title: { default: "2TIC", template: "%s · 2TIC" },
   description: "Ressources humaines, temps de travail, comptabilité SYSCOHADA / SYCEBNL et paie.",
 };
 

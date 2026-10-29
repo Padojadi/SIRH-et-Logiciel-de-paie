@@ -10,7 +10,7 @@ export default async function Documentation() {
       <PageHeader
         kicker="Aide"
         title="Documentation"
-        lede="Cauris regroupe les ressources humaines, le temps de travail, la comptabilité et la paie pour une organisation installée sur son propre serveur."
+        lede="2TIC regroupe les ressources humaines, le temps de travail, la comptabilité et la paie pour une organisation installée sur son propre serveur."
       />
 
       <h2>Installer sur un serveur</h2>

@@ -28,7 +28,7 @@ export function seed(database: DatabaseSync): void {
   database.exec("BEGIN");
   try {
     const settings: Record<string, string> = {
-      organisation: "Institut des Savanes",
+      organisation: "SIGRHCP",
       adresse: "18, avenue des Niayes",
       ville: "Dakar",
       nif: "123456789 2A2",

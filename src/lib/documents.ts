@@ -28,7 +28,7 @@ export async function pdfFiche(fiche: { code: string; title: string; mission: st
   const draw = (text: string, x: number, y: number, size: number, strong = false) => {
     page.drawText(pdfSafe(text), { x, y, size, font: strong ? bold : font, color: rgb(0.08, 0.14, 0.11) });
   };
-  draw(setting("organisation", "Cauris"), 40, 800, 10);
+  draw(setting("organisation", "SIGRHCP"), 40, 800, 10);
   draw("Fiche de poste", 40, 770, 22, true);
   draw(`${fiche.code} — ${fiche.title}`, 40, 744, 13, true);
   if (fiche.org) draw(fiche.org, 40, 726, 11);
@@ -66,7 +66,7 @@ export async function docxFiche(fiche: { code: string; title: string; mission: s
   const doc = new Document({
     sections: [{
       children: [
-        new Paragraph({ text: setting("organisation", "Cauris"), heading: HeadingLevel.HEADING_2 }),
+        new Paragraph({ text: setting("organisation", "SIGRHCP"), heading: HeadingLevel.HEADING_2 }),
         new Paragraph({ text: `${fiche.code} — ${fiche.title}`, heading: HeadingLevel.HEADING_1 }),
         new Paragraph({ children: [new TextRun(fiche.org ?? "")] }),
         new Paragraph({ text: "Mission", heading: HeadingLevel.HEADING_2 }),
@@ -103,7 +103,7 @@ export async function pdfBulletin(input: {
   const text = (value: string, x: number, y: number, size = 10, strong = false) => {
     page.drawText(pdfSafe(value), { x, y, size, font: strong ? bold : font, color: rgb(0.1, 0.12, 0.1) });
   };
-  text(setting("organisation", "Cauris"), 40, 800, 12, true);
+  text(setting("organisation", "SIGRHCP"), 40, 800, 12, true);
   text(`${setting("adresse", "")} ${setting("ville", "")}`.trim(), 40, 784, 9);
   text(`NIF ${setting("nif", "")}`, 40, 770, 9);
   text("Bulletin de paie", 360, 800, 16, true);

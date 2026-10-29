@@ -88,7 +88,7 @@ export async function GET(request: Request) {
     if (type === "sauvegarde") {
       if (user.role !== "administrateur") return new Response("Accès refusé", { status: 403 });
       db().exec("PRAGMA wal_checkpoint(TRUNCATE)");
-      return file(fs.readFileSync(dbPath()), "application/vnd.sqlite3", nomFichier("cauris-sauvegarde", "sqlite"));
+      return file(fs.readFileSync(dbPath()), "application/vnd.sqlite3", nomFichier("2tic-sauvegarde", "sqlite"));
     }
   } catch (error) {
     return new Response(error instanceof Error ? error.message : "Export impossible", { status: 500 });

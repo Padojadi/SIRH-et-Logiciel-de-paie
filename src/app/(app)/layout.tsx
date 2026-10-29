@@ -12,7 +12,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
   if (!user) redirect("/connexion");
   const role = isRole(user.role) ? ROLE_LABEL[user.role] : user.role;
   return (
-    <Shell org={setting("organisation", "Cauris")} userName={user.name} roleLabel={role} items={navFor(user.role)}>
+    <Shell org={setting("organisation", "SIGRHCP")} userName={user.name} roleLabel={role} items={navFor(user.role)}>
       {children}
     </Shell>
   );

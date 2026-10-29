@@ -31,7 +31,7 @@ export function Shell({
             <path d="M16 34c7-14 22-18 32-8 4 5 2 13-5 16-8 4-17 1-23-2 7 2 15 1 19-4-8 7-19 6-23-2z" fill="#14352b" />
           </svg>
           <div>
-            <strong>Cauris</strong>
+            <strong>2TIC</strong>
             <span>{org}</span>
           </div>
         </div>
@@ -62,7 +62,7 @@ export function Shell({
       <div className="main">
         <div className="topbar">
           <button className="burger" type="button" onClick={() => setOpen((value) => !value)}>Menu</button>
-          <strong>Cauris</strong>
+          <strong>2TIC</strong>
         </div>
         <div className="content">{children}</div>
       </div>
