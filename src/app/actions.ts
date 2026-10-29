@@ -1,7 +1,7 @@
 "use server";
 
 import { redirect } from "next/navigation";
-import { changePassword, login, logout, requireUser } from "@/lib/auth";
+import { alignerSession, changePassword, login, logout, requireUser } from "@/lib/auth";
 import {
   creerImmo,
   creerRemise,
@@ -80,6 +80,7 @@ export async function changerMotDePasse(formData: FormData) {
   } catch (error) {
     fail("/compte", error);
   }
+  await alignerSession(user);
   confirmer("/compte", "Mot de passe modifié. Enregistrez votre visage pour finaliser l'accès.");
 }
 
