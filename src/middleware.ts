@@ -1,4 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
+import { sessionDoitFinaliser } from "@/lib/session-flag";
 
 function publicRedirect(request: NextRequest, pathname: string) {
   const forwarded = (request.headers.get("x-forwarded-host") ?? request.headers.get("host") ?? "").split(",")[0].trim();
@@ -36,14 +37,21 @@ function continuer(request: NextRequest) {
   return NextResponse.next({ request: { headers } });
 }
 
-export function middleware(request: NextRequest) {
+function accesLibre(pathname: string): boolean {
+  return pathname === "/compte" || pathname === "/connexion" || pathname.startsWith("/modeles-visage/") || pathname.startsWith("/api/identite/");
+}
+
+export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  if (pathname === "/connexion" || pathname.startsWith("/modeles-visage/")) return continuer(request);
   const token = request.cookies.get("cauris_session")?.value;
+  const aFinaliser = token ? await sessionDoitFinaliser(token, process.env.SESSION_SECRET ?? "") : false;
+  if (pathname === "/connexion" || pathname.startsWith("/modeles-visage/")) return continuer(request);
   if (pathname === "/") {
-    return publicRedirect(request, token ? "/tableau-de-bord" : "/connexion");
+    if (!token) return publicRedirect(request, "/connexion");
+    return publicRedirect(request, aFinaliser ? "/compte" : "/tableau-de-bord");
   }
   if (!token) return publicRedirect(request, "/connexion");
+  if (aFinaliser && !accesLibre(pathname)) return publicRedirect(request, "/compte");
   return continuer(request);
 }
 

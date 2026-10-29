@@ -54,6 +54,10 @@ function fail(path: string, error: unknown): never {
   redirect(`${path}${path.includes("?") ? "&" : "?"}erreur=${encodeURIComponent(errorMessage(error))}`);
 }
 
+function confirmer(path: string, message: string): never {
+  redirect(`${path}${path.includes("?") ? "&" : "?"}ok=${encodeURIComponent(message)}`);
+}
+
 export async function connecter(formData: FormData) {
   let user;
   try {
@@ -76,7 +80,7 @@ export async function changerMotDePasse(formData: FormData) {
   } catch (error) {
     fail("/compte", error);
   }
-  redirect("/compte?ok=Mot de passe modifié. Enregistrez votre visage pour finaliser l'accès.");
+  confirmer("/compte", "Mot de passe modifié. Enregistrez votre visage pour finaliser l'accès.");
 }
 
 export async function creerUnite(formData: FormData) {
@@ -91,7 +95,7 @@ export async function creerUnite(formData: FormData) {
   } catch (error) {
     fail("/rh/organisation", error);
   }
-  redirect("/rh/organisation?ok=Unité créée");
+  confirmer("/rh/organisation", "Unité créée");
 }
 
 export async function enregistrerAgent(formData: FormData) {
@@ -116,7 +120,7 @@ export async function enregistrerAgent(formData: FormData) {
       iban: optionalText(formData.get("iban")),
       actif: formData.get("actif") ? 1 : 0,
     }, user.id);
-    redirect(`/rh/agents/${agentId}?ok=Agent enregistré`);
+    confirmer(`/rh/agents/${agentId}`, "Agent enregistré");
   } catch (error) {
     fail(id ? `/rh/agents/${id}` : "/rh/agents/nouveau", error);
   }
@@ -143,7 +147,7 @@ export async function enregistrerFiche(formData: FormData) {
         minutes_par_jour: Number(minutes[index] ?? 0),
       })).filter((task) => task.title.trim()),
     }, user.id);
-    redirect(`/rh/fiches/${ficheId}?ok=Fiche enregistrée`);
+    confirmer(`/rh/fiches/${ficheId}`, "Fiche enregistrée");
   } catch (error) {
     fail(id ? `/rh/fiches/${id}` : "/rh/fiches/nouvelle", error);
   }
@@ -172,13 +176,13 @@ export async function enregistrerException(formData: FormData) {
   } catch (error) {
     fail("/temps/exceptions", error);
   }
-  redirect("/temps/exceptions?ok=Exception enregistrée");
+  confirmer("/temps/exceptions", "Exception enregistrée");
 }
 
 export async function basculerException(formData: FormData) {
   const user = await requireUser("temps.manage");
   toggleException(Number(formData.get("id")), user.id);
-  redirect("/temps/exceptions?ok=Exception mise à jour");
+  confirmer("/temps/exceptions", "Exception mise à jour");
 }
 
 export async function enregistrerShift(formData: FormData) {
@@ -194,13 +198,13 @@ export async function enregistrerShift(formData: FormData) {
     jours: formData.getAll("jours").map(String).join(","),
     org_unit_id: Number(formData.get("org_unit_id")) || null,
   }, user.id);
-  redirect("/temps/planning?ok=Shift enregistré");
+  confirmer("/temps/planning", "Shift enregistré");
 }
 
 export async function affecterShift(formData: FormData) {
   const user = await requireUser("temps.manage");
   assignShift(Number(formData.get("agent_id")), Number(formData.get("shift_id")), requiredText(formData.get("date_debut"), "La date"), user.id);
-  redirect("/temps/planning?ok=Shift affecté");
+  confirmer("/temps/planning", "Shift affecté");
 }
 
 export async function planifierTravail(formData: FormData) {
@@ -217,13 +221,13 @@ export async function planifierTravail(formData: FormData) {
   } catch (error) {
     fail("/temps/planning", error);
   }
-  redirect("/temps/planning?ok=Travail planifié");
+  confirmer("/temps/planning", "Travail planifié");
 }
 
 export async function supprimerPlan(formData: FormData) {
   await requireUser("temps.manage");
   removePlan(Number(formData.get("id")));
-  redirect("/temps/planning?ok=Travail retiré");
+  confirmer("/temps/planning", "Travail retiré");
 }
 
 export async function regulariserTemps(formData: FormData) {
@@ -240,7 +244,7 @@ export async function regulariserTemps(formData: FormData) {
   } catch (error) {
     fail("/temps/journees", error);
   }
-  redirect("/temps/journees?ok=Temps régularisé");
+  confirmer("/temps/journees", "Temps régularisé");
 }
 
 export async function enregistrerPiece(formData: FormData) {
@@ -262,7 +266,7 @@ export async function enregistrerPiece(formData: FormData) {
       mode: "piece",
       lines,
     });
-    redirect(`/compta/journaux/${id}?ok=Écriture enregistrée`);
+    confirmer(`/compta/journaux/${id}`, "Écriture enregistrée");
   } catch (error) {
     fail("/compta/saisie", error);
   }
@@ -273,7 +277,7 @@ export async function enregistrerKilometre(formData: FormData) {
   try {
     const payload = JSON.parse(String(formData.get("payload") ?? "[]")) as (EcritureLine & { journal: string; date: string; piece: string })[];
     const count = posterGroupees(user, payload, "kilometre");
-    redirect(`/compta/journaux?ok=${count} pièce(s) enregistrée(s)`);
+    confirmer("/compta/journaux", `${count} pièce(s) enregistrée(s)`);
   } catch (error) {
     fail("/compta/saisie?mode=kilometre", error);
   }
@@ -291,13 +295,13 @@ export async function enregistrerCompte(formData: FormData) {
   } catch (error) {
     fail("/compta/plan", error);
   }
-  redirect("/compta/plan?ok=Compte enregistré");
+  confirmer("/compta/plan", "Compte enregistré");
 }
 
 export async function basculerCompte(formData: FormData) {
   await requireUser("compta.write");
   toggleCompte(Number(formData.get("id")));
-  redirect("/compta/plan?ok=Compte mis à jour");
+  confirmer("/compta/plan", "Compte mis à jour");
 }
 
 export async function faireLettrage(formData: FormData) {
@@ -308,7 +312,7 @@ export async function faireLettrage(formData: FormData) {
   } catch (error) {
     fail(back, error);
   }
-  redirect(`${back}&ok=Lignes lettrées`);
+  confirmer(back, "Lignes lettrées");
 }
 
 export async function importerReleve(formData: FormData) {
@@ -317,7 +321,7 @@ export async function importerReleve(formData: FormData) {
     const file = formData.get("fichier");
     if (!(file instanceof File) || file.size === 0) throw new Error("Choisissez un fichier OFX, CFONB ou CSV.");
     const count = importReleve(file.name, await file.text(), user.id);
-    redirect(`/compta/tresorerie?ok=${count} mouvement(s) importé(s)`);
+    confirmer("/compta/tresorerie", `${count} mouvement(s) importé(s)`);
   } catch (error) {
     fail("/compta/tresorerie", error);
   }
@@ -330,13 +334,13 @@ export async function pointerLignes(formData: FormData) {
   } catch (error) {
     fail("/compta/tresorerie", error);
   }
-  redirect("/compta/tresorerie?ok=Mouvement pointé");
+  confirmer("/compta/tresorerie", "Mouvement pointé");
 }
 
 export async function pointerAuto() {
   const user = await requireUser("compta.write");
   const count = rapprochementAuto(user.id);
-  redirect(`/compta/tresorerie?ok=${count} rapprochement(s) automatique(s)`);
+  confirmer("/compta/tresorerie", `${count} rapprochement(s) automatique(s)`);
 }
 
 export async function ajouterFournisseur(formData: FormData) {
@@ -347,7 +351,7 @@ export async function ajouterFournisseur(formData: FormData) {
     iban: optionalText(formData.get("iban")),
     compte: optionalText(formData.get("compte")) || "4011",
   }, user.id);
-  redirect("/compta/fournisseurs?ok=Fournisseur ajouté");
+  confirmer("/compta/fournisseurs", "Fournisseur ajouté");
 }
 
 export async function ajouterFacture(formData: FormData) {
@@ -364,7 +368,7 @@ export async function ajouterFacture(formData: FormData) {
   } catch (error) {
     fail("/compta/fournisseurs", error);
   }
-  redirect("/compta/fournisseurs?ok=Facture brouillon créée");
+  confirmer("/compta/fournisseurs", "Facture brouillon créée");
 }
 
 export async function validerFactureAction(formData: FormData) {
@@ -374,14 +378,14 @@ export async function validerFactureAction(formData: FormData) {
   } catch (error) {
     fail("/compta/fournisseurs", error);
   }
-  redirect("/compta/fournisseurs?ok=Facture validée et comptabilisée");
+  confirmer("/compta/fournisseurs", "Facture validée et comptabilisée");
 }
 
 export async function preparerRemise(formData: FormData) {
   const user = await requireUser("compta.write");
   try {
     const id = creerRemise(formData.getAll("facture").map(Number).filter(Boolean), user);
-    redirect(`/compta/fournisseurs?ok=Remise ${id} émise`);
+    confirmer("/compta/fournisseurs", `Remise ${id} émise`);
   } catch (error) {
     fail("/compta/fournisseurs", error);
   }
@@ -405,14 +409,14 @@ export async function creerImmobilisation(formData: FormData) {
   } catch (error) {
     fail("/compta/immobilisations", error);
   }
-  redirect("/compta/immobilisations?ok=Immobilisation créée");
+  confirmer("/compta/immobilisations", "Immobilisation créée");
 }
 
 export async function lancerDotations(formData: FormData) {
   const user = await requireUser("compta.write");
   try {
     const n = genererDotations(requiredText(formData.get("periode"), "La période"), user);
-    redirect(`/compta/immobilisations?ok=${n} dotation(s) générée(s)`);
+    confirmer("/compta/immobilisations", `${n} dotation(s) générée(s)`);
   } catch (error) {
     fail("/compta/immobilisations", error);
   }
@@ -426,14 +430,14 @@ export async function enregistrerBudget(formData: FormData) {
   } catch (error) {
     fail(`/compta/budgets?periode=${periode}`, error);
   }
-  redirect(`/compta/budgets?periode=${periode}&ok=Budget enregistré`);
+  confirmer(`/compta/budgets?periode=${periode}`, "Budget enregistré");
 }
 
 export async function enregistrerTableur(formData: FormData) {
   const user = await requireUser("compta.write");
   const grid = JSON.parse(String(formData.get("grid") ?? "{}")) as Record<string, string>;
   saveSheet(requiredText(formData.get("nom"), "Le nom"), grid, user.id);
-  redirect("/compta/tableur?ok=Feuille enregistrée");
+  confirmer("/compta/tableur", "Feuille enregistrée");
 }
 
 export async function enregistrerConvention(formData: FormData) {
@@ -467,7 +471,7 @@ export async function enregistrerConvention(formData: FormData) {
       description: optionalText(formData.get("description")),
       config: base,
     }, user.id);
-    redirect(`/paie/conventions/${saved}?ok=Convention enregistrée`);
+    confirmer(`/paie/conventions/${saved}`, "Convention enregistrée");
   } catch (error) {
     fail(id ? `/paie/conventions/${id}` : "/paie/conventions", error);
   }
@@ -484,7 +488,7 @@ export async function calculerPaie(formData: FormData) {
       jours: optionalNumber(formData.getAll("jours")[index] ?? null),
       retenues: optionalNumber(formData.getAll("retenues")[index] ?? null),
     })), user.id);
-    redirect(`/paie/periodes/${id}?ok=Paie calculée`);
+    confirmer(`/paie/periodes/${id}`, "Paie calculée");
   } catch (error) {
     fail(`/paie/periodes?mois=${mois}`, error);
   }
@@ -504,14 +508,14 @@ export async function comptabiliser(formData: FormData) {
   } catch (error) {
     fail(`/paie/periodes/${id}`, error);
   }
-  redirect(`/paie/periodes/${id}?ok=Paie comptabilisée`);
+  confirmer(`/paie/periodes/${id}`, "Paie comptabilisée");
 }
 
 export async function cloturer(formData: FormData) {
   const user = await requireUser("paie.write");
   const id = Number(formData.get("id"));
   cloturerPeriode(id, user.id);
-  redirect(`/paie/periodes/${id}?ok=Période clôturée`);
+  confirmer(`/paie/periodes/${id}`, "Période clôturée");
 }
 
 export async function creerUtilisateur(formData: FormData) {
@@ -533,7 +537,7 @@ export async function creerUtilisateur(formData: FormData) {
   } catch (error) {
     fail("/admin/utilisateurs", error);
   }
-  redirect("/admin/utilisateurs?ok=Utilisateur créé");
+  confirmer("/admin/utilisateurs", "Utilisateur créé");
 }
 
 export async function enregistrerParametres(formData: FormData) {
@@ -567,7 +571,7 @@ export async function enregistrerParametres(formData: FormData) {
   } catch (error) {
     fail("/admin/parametres", error);
   }
-  redirect("/admin/parametres?ok=Paramètres enregistrés");
+  confirmer("/admin/parametres", "Paramètres enregistrés");
 }
 
 export async function ajouterLocalisation(formData: FormData) {
@@ -586,7 +590,7 @@ export async function ajouterLocalisation(formData: FormData) {
   } catch (error) {
     fail(retour, error);
   }
-  redirect(`${retour}?ok=Localisation enregistrée`);
+  confirmer(retour, "Localisation enregistrée");
 }
 
 export async function retirerLocalisation(formData: FormData) {
@@ -598,5 +602,5 @@ export async function retirerLocalisation(formData: FormData) {
   } catch (error) {
     fail(retour, error);
   }
-  redirect(`${retour}?ok=Localisation retirée`);
+  confirmer(retour, "Localisation retirée");
 }

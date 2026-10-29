@@ -1,4 +1,4 @@
-import { getSessionUser } from "@/lib/auth";
+import { alignerSession, getSessionUser } from "@/lib/auth";
 import { descripteurValide } from "@/lib/presence";
 import { enregistrerVisage, etatAcces } from "@/lib/presence-store";
 
@@ -16,6 +16,7 @@ export async function POST(request: Request) {
   }
   try {
     enregistrerVisage(user.agent_id, body.descripteur, user.id);
+    await alignerSession(user);
   } catch (error) {
     return Response.json({ error: error instanceof Error ? error.message : "Enregistrement impossible." }, { status: 400 });
   }

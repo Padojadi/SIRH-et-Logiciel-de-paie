@@ -6,6 +6,9 @@ import { redirect } from "next/navigation";
 import { get, run } from "./db";
 import { can } from "./permissions";
 import { hashPassword, verifyPassword } from "./passwords";
+import { finalisationRequise } from "./presence-store";
+import { sessionDoitFinaliser } from "./session-flag";
+import { signSessionToken } from "./session-token";
 import { audit } from "./settings";
 
 export type SessionUser = {
@@ -26,10 +29,24 @@ function secret(): string {
   return value;
 }
 
-export function signSession(userId: number): string {
-  const body = Buffer.from(JSON.stringify({ uid: userId, exp: Date.now() + 12 * 3600 * 1000 })).toString("base64url");
-  const sig = createHmac("sha256", secret()).update(body).digest("base64url");
-  return `${body}.${sig}`;
+const COOKIE_SESSION = {
+  httpOnly: true,
+  sameSite: "lax" as const,
+  path: "/",
+  maxAge: 12 * 3600,
+};
+
+export function signSession(userId: number, finaliser = false): string {
+  return signSessionToken(userId, secret(), finaliser);
+}
+
+export async function alignerSession(user: SessionUser): Promise<boolean> {
+  const jar = await cookies();
+  const token = jar.get("cauris_session")?.value ?? "";
+  const requise = finalisationRequise(user);
+  const marque = token ? await sessionDoitFinaliser(token, secret()) : false;
+  if (requise !== marque) jar.set("cauris_session", signSession(user.id, requise), COOKIE_SESSION);
+  return requise;
 }
 
 export function readSession(token: string): number | null {
@@ -80,12 +97,7 @@ export async function login(email: string, password: string): Promise<SessionUse
     throw new Error("Identifiant ou mot de passe incorrect.");
   }
   const jar = await cookies();
-  jar.set("cauris_session", signSession(row.id), {
-    httpOnly: true,
-    sameSite: "lax",
-    path: "/",
-    maxAge: 12 * 3600,
-  });
+  jar.set("cauris_session", signSession(row.id, finalisationRequise(row)), COOKIE_SESSION);
   audit(row.id, "connexion", row.email);
   return row;
 }
