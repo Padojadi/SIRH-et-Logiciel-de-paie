@@ -30,15 +30,21 @@ function publicRedirect(request: NextRequest, pathname: string) {
   return NextResponse.redirect(new URL(pathname, origin));
 }
 
+function continuer(request: NextRequest) {
+  const headers = new Headers(request.headers);
+  headers.set("x-chemin", request.nextUrl.pathname);
+  return NextResponse.next({ request: { headers } });
+}
+
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  if (pathname === "/connexion") return NextResponse.next();
+  if (pathname === "/connexion") return continuer(request);
   const token = request.cookies.get("cauris_session")?.value;
   if (pathname === "/") {
     return publicRedirect(request, token ? "/tableau-de-bord" : "/connexion");
   }
   if (!token) return publicRedirect(request, "/connexion");
-  return NextResponse.next();
+  return continuer(request);
 }
 
 export const config = {

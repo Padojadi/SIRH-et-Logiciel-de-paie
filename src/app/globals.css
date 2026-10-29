@@ -158,6 +158,14 @@ button:disabled { opacity: 0.55; cursor: not-allowed; }
   letter-spacing: -0.04em;
   margin: 0.2rem 0;
 }
+.camera {
+  width: min(100%, 420px);
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #10241c;
+  margin: 0.6rem 0;
+}
 .steps { display: flex; gap: 0.4rem; margin-bottom: 1rem; }
 .steps span { padding: 0.3rem 0.6rem; border-radius: 999px; background: var(--sand); font-size: 0.8rem; }
 .steps span.on { background: var(--green); color: white; }

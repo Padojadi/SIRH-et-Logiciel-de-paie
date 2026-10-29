@@ -36,6 +36,7 @@ import {
 } from "@/lib/payroll-store";
 import { parseTranchesMontant, parseTranchesTaux, type ConventionConfig } from "@/lib/payroll-engine";
 import { errorMessage, rethrowIfRedirect } from "@/lib/redirect-error";
+import { ajouterLieu, finalisationRequise, retirerLieu } from "@/lib/presence-store";
 import { saveSettings } from "@/lib/settings";
 import { validateStandardHours } from "@/lib/time-engine";
 import {
@@ -54,12 +55,13 @@ function fail(path: string, error: unknown): never {
 }
 
 export async function connecter(formData: FormData) {
+  let user;
   try {
-    await login(requiredText(formData.get("email"), "L'identifiant"), String(formData.get("mot_de_passe") ?? ""));
+    user = await login(requiredText(formData.get("email"), "L'identifiant"), String(formData.get("mot_de_passe") ?? ""));
   } catch (error) {
     fail("/connexion", error);
   }
-  redirect("/tableau-de-bord");
+  redirect(finalisationRequise(user) ? "/compte" : "/tableau-de-bord");
 }
 
 export async function deconnecter() {
@@ -74,7 +76,7 @@ export async function changerMotDePasse(formData: FormData) {
   } catch (error) {
     fail("/compte", error);
   }
-  redirect("/compte?ok=Mot de passe modifié");
+  redirect("/compte?ok=Mot de passe modifié. Enregistrez votre visage pour finaliser l'accès.");
 }
 
 export async function creerUnite(formData: FormData) {
@@ -566,4 +568,35 @@ export async function enregistrerParametres(formData: FormData) {
     fail("/admin/parametres", error);
   }
   redirect("/admin/parametres?ok=Paramètres enregistrés");
+}
+
+export async function ajouterLocalisation(formData: FormData) {
+  const user = await requireUser("rh.write");
+  const agentId = Number(formData.get("agent_id"));
+  const retour = `/rh/agents/${agentId || ""}`;
+  try {
+    if (!agentId) throw new Error("Agent introuvable.");
+    ajouterLieu({
+      agentId,
+      nom: requiredText(formData.get("nom"), "Le nom du lieu"),
+      latitude: requiredNumber(formData.get("latitude"), "La latitude"),
+      longitude: requiredNumber(formData.get("longitude"), "La longitude"),
+      rayonMetres: requiredNumber(formData.get("rayon"), "Le rayon"),
+    }, user.id);
+  } catch (error) {
+    fail(retour, error);
+  }
+  redirect(`${retour}?ok=Localisation enregistrée`);
+}
+
+export async function retirerLocalisation(formData: FormData) {
+  const user = await requireUser("rh.write");
+  const agentId = Number(formData.get("agent_id"));
+  const retour = `/rh/agents/${agentId || ""}`;
+  try {
+    retirerLieu(Number(formData.get("id")), agentId, user.id);
+  } catch (error) {
+    fail(retour, error);
+  }
+  redirect(`${retour}?ok=Localisation retirée`);
 }

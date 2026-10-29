@@ -99,6 +99,6 @@ export function changePassword(userId: number, current: string, next: string): v
   const row = get<{ password_hash: string }>("SELECT password_hash FROM users WHERE id = ?", [userId]);
   if (!row || !verifyPassword(current, row.password_hash)) throw new Error("Le mot de passe actuel est incorrect.");
   if (next.length < 10) throw new Error("Le nouveau mot de passe doit contenir au moins 10 caractères.");
-  run("UPDATE users SET password_hash = ? WHERE id = ?", [hashPassword(next), userId]);
+  run("UPDATE users SET password_hash = ?, mot_de_passe_personnel = 1 WHERE id = ?", [hashPassword(next), userId]);
   audit(userId, "mot_de_passe", "Modification du mot de passe");
 }

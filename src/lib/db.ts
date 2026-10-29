@@ -82,6 +82,7 @@ function migrate(database: DatabaseSync): void {
       role TEXT NOT NULL,
       agent_id INTEGER,
       active INTEGER NOT NULL DEFAULT 1,
+      mot_de_passe_personnel INTEGER NOT NULL DEFAULT 0,
       created_at TEXT NOT NULL
     );
     CREATE TABLE IF NOT EXISTS org_units (
@@ -370,5 +371,23 @@ function migrate(database: DatabaseSync): void {
     CREATE INDEX IF NOT EXISTS idx_ecritures_date ON ecritures(date);
     CREATE INDEX IF NOT EXISTS idx_tranches ON tranches_temps(agent_id, date);
     CREATE INDEX IF NOT EXISTS idx_comptes_code ON comptes(framework, code);
+    CREATE TABLE IF NOT EXISTS identites_faciales (
+      agent_id INTEGER PRIMARY KEY,
+      descripteur TEXT NOT NULL,
+      enregistre_le TEXT NOT NULL
+    );
+    CREATE TABLE IF NOT EXISTS localisations_autorisees (
+      id INTEGER PRIMARY KEY,
+      agent_id INTEGER NOT NULL,
+      nom TEXT NOT NULL,
+      latitude REAL NOT NULL,
+      longitude REAL NOT NULL,
+      rayon_metres INTEGER NOT NULL
+    );
+    CREATE INDEX IF NOT EXISTS idx_localisations_agent ON localisations_autorisees(agent_id);
   `);
+  const users = database.prepare("PRAGMA table_info(users)").all() as { name: string }[];
+  if (!users.some((column) => column.name === "mot_de_passe_personnel")) {
+    database.exec("ALTER TABLE users ADD COLUMN mot_de_passe_personnel INTEGER NOT NULL DEFAULT 0");
+  }
 }

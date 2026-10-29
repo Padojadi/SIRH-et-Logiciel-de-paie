@@ -2,6 +2,7 @@ import type { SessionUser } from "./auth";
 import { dakarParts, dakarToday, weekday } from "./dates";
 import { all, get, run, transaction } from "./db";
 import { descendants, getAgent, listOrg } from "./hr-store";
+import { controlerPresence, lieuxAgent, visageEnregistre, type PreuvePresence } from "./presence-store";
 import { audit, timeSettings } from "./settings";
 import {
   IDLE_LIMIT_SEC,
@@ -109,16 +110,28 @@ export function etatJournee(agentId: number, now = new Date()) {
     fiche: ctx.agent.fiche_titre ?? "",
     poste: ctx.agent.poste,
     taches,
+    lieux: lieuxAgent(agentId).map((lieu) => ({ nom: lieu.nom, rayon_metres: lieu.rayon_metres })),
+    visageEnregistre: visageEnregistre(agentId),
+    autorise: false,
+    controle: null as string | null,
   };
 }
 
-export function enregistrerBattement(agentId: number, input: { active: boolean; tacheId: number | null; now?: Date }, userId: number | null): ReturnType<typeof etatJournee> {
+export function enregistrerBattement(
+  agentId: number,
+  input: { active: boolean; tacheId: number | null; now?: Date; preuve: PreuvePresence },
+  userId: number | null,
+): ReturnType<typeof etatJournee> {
   const now = input.now ?? new Date();
   const parts = dakarParts(now);
   const ctx = context(agentId, parts.date, parts.seconds);
   if (input.tacheId) {
     const task = get<{ id: number }>("SELECT id FROM fiche_taches WHERE id = ? AND fiche_id = ?", [input.tacheId, ctx.agent.fiche_id ?? 0]);
     if (!task) throw new Error("Cette tâche n'appartient pas à la fiche de poste de l'agent.");
+  }
+  const controle = controlerPresence(agentId, input.preuve);
+  if (!controle.ok) {
+    return { ...etatJournee(agentId, now), autorise: false, controle: controle.message };
   }
   transaction(() => {
     let journee = get<{ id: number; last_beat_at: string | null; secondes: number }>(
@@ -153,7 +166,7 @@ export function enregistrerBattement(agentId: number, input: { active: boolean; 
     }
     run("UPDATE journees SET last_beat_at = ? WHERE id = ?", [now.toISOString(), journee.id]);
   });
-  return etatJournee(agentId, now);
+  return { ...etatJournee(agentId, now), autorise: true, controle: `Visage reconnu · ${controle.lieu}` };
 }
 
 export function regulariser(input: { agentId: number; date: string; tacheId: number | null; secondes: number; motif: string }, userId: number): void {

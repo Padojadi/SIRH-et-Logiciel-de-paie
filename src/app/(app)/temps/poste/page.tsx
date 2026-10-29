@@ -23,9 +23,9 @@ export default async function Poste({ searchParams }: { searchParams: Promise<Re
       <PageHeader
         kicker="Temps de travail"
         title={agent ? `${agent.prenom} ${agent.nom}` : "Poste de travail"}
-        lede="La journée s'ouvre à la première connexion, entre 6 h et 8 h, et se termine entre 15 h et 18 h. Le compteur se bloque après deux minutes sans utilisation. Un shift, un travail planifié ou une exception active élargit cette plage."
+        lede="La journée s'ouvre quand la session, le visage et une localisation autorisée sont réunis, entre 6 h et 8 h, et se termine entre 15 h et 18 h. Le compteur se bloque après deux minutes sans utilisation. Un shift, un travail planifié ou une exception active élargit la plage, pas ces deux contrôles."
       />
-      <PosteTravail initial={etat} agentId={agentId} />
+      <PosteTravail initial={etat} agentId={agentId} personnel={agentId === user.agent_id} />
     </>
   );
 }

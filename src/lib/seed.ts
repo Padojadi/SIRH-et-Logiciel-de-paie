@@ -591,6 +591,10 @@ export function seed(database: DatabaseSync): void {
     }
 
     run("INSERT INTO audit (user_id, action, detail, created_at) VALUES (NULL, 'initialisation', 'Base de démonstration créée', ?)", now);
+    database.exec(
+      `INSERT INTO localisations_autorisees (agent_id, nom, latitude, longitude, rayon_metres)
+       SELECT id, 'Siège SIGRHCP', 14.6937, -17.4441, 500 FROM agents`,
+    );
     database.exec("COMMIT");
   } catch (error) {
     database.exec("ROLLBACK");
